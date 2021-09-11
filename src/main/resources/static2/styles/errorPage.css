@@ -1,0 +1,269 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#notfound .notfound-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+#notfound .notfound-bg > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #eee;
+}
+
+#notfound .notfound-bg > div:nth-child(1) {
+  left: 20%;
+}
+
+#notfound .notfound-bg > div:nth-child(2) {
+  left: 40%;
+}
+
+#notfound .notfound-bg > div:nth-child(3) {
+  left: 60%;
+}
+
+#notfound .notfound-bg > div:nth-child(4) {
+  left: 80%;
+}
+
+#notfound .notfound-bg > div:nth-child(5) {
+  top: 20%;
+  width: 100%;
+  height: 1px;
+}
+
+#notfound .notfound-bg > div:nth-child(6) {
+  top: 40%;
+  width: 100%;
+  height: 1px;
+}
+
+#notfound .notfound-bg > div:nth-child(7) {
+  top: 60%;
+  width: 100%;
+  height: 1px;
+}
+
+#notfound .notfound-bg > div:nth-child(8) {
+  top: 80%;
+  width: 100%;
+  height: 1px;
+}
+
+#notfound .notfound-bg > div:after {
+  content: "";
+  position: absolute;
+  top: -160px;
+  left: -0.5px;
+  height: 160px;
+  width: 2px;
+}
+
+#notfound .notfound-bg > div:nth-child(5):after,
+#notfound .notfound-bg > div:nth-child(6):after,
+#notfound .notfound-bg > div:nth-child(7):after,
+#notfound .notfound-bg > div:nth-child(8):after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: -160px;
+  height: 2px;
+  width: 160px;
+}
+
+@-webkit-keyframes drop {
+  90% {
+    height: 20px;
+  }
+  100% {
+    height: 160px;
+    top: calc(100vh + 160px);
+  }
+}
+
+@keyframes drop {
+  90% {
+    height: 20px;
+  }
+  100% {
+    height: 160px;
+    top: calc(100vh + 160px);
+  }
+}
+
+@keyframes slide {
+  90% {
+    width: 20px;
+  }
+  100% {
+    left: calc(100vw + 160px);
+  }
+}
+
+@-webkit-keyframes slide {
+  90% {
+    width: 20px;
+  }
+  100% {
+    left: calc(100vw + 160px);
+  }
+}
+
+#notfound .notfound-bg > div:nth-child(1):after {
+  -webkit-animation: drop 3s infinite linear;
+  animation: drop 3s infinite linear;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  background-color: red;
+}
+
+#notfound .notfound-bg > div:nth-child(2):after {
+  -webkit-animation: drop 2s infinite linear;
+  animation: drop 2s infinite linear;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  background-color: orange;
+}
+
+#notfound .notfound-bg > div:nth-child(3):after {
+  -webkit-animation: drop 3s infinite linear;
+  animation: drop 3s infinite linear;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  background-color: yellow;
+}
+
+#notfound .notfound-bg > div:nth-child(4):after {
+  -webkit-animation: drop 2s infinite linear;
+  animation: drop 2s infinite linear;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  background-color: green;
+}
+
+#notfound .notfound-bg > div:nth-child(5):after {
+  -webkit-animation: slide 3s infinite linear;
+  animation: slide 3s infinite linear;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  background-color: blue;
+}
+
+#notfound .notfound-bg > div:nth-child(6):after {
+  -webkit-animation: slide 2s infinit linear;
+  animation: slide 2s infinite linear;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  background-color: purple;
+}
+
+#notfound .notfound-bg > div:nth-child(7):after {
+  -webkit-animation: slide 3s infinite linear;
+  animation: slide 3s infinite linear;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  background-color: rgb(255, 158, 158);
+}
+
+#notfound .notfound-bg > div:nth-child(8):after {
+  -webkit-animation: slide 2s infinite linear;
+  animation: slide 2s infinite linear;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  background-color: rgb(0, 238, 255);
+}
+
+.notfound {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 180px;
+  font-weight: 700;
+  margin: 0px;
+  text-shadow: 3px 3px 0px #00a65a;
+  line-height: 190px;
+}
+
+.notfound h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.notfound p {
+  font-family: "Lato", sans-serif;
+  color: #000;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.notfound a {
+  font-family: "Lato", sans-serif;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 0px 1px #000, 2px 2px 0px 1px #00a65a;
+  box-shadow: 0px 0px 0px 1px #000, 2px 2px 0px 1px #00a65a;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.notfound a:hover {
+  background-color: #00a65a;
+  -webkit-box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #00a65a;
+  box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #00a65a;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+    font-size: 120px;
+    line-height: 150px;
+  }
+
+  .notfound h2 {
+    font-size: 26px;
+  }
+}

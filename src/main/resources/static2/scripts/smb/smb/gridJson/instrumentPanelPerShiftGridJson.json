@@ -1,0 +1,136 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "smb",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "instrumentPanelPerShiftUuid": {
+                "title": "smb.instrumentPanelPerShiftUuid",
+                "type": "hidden",
+                "required": false
+            },
+            "smbPerShiftUuid": {
+                "title": "smb.smbPerMinUuid",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "manufactureOrderNo": {
+                "title": "當前工單",
+                "type": "hidden",
+                "required": false,
+                "search": "date"
+            },
+            "clothOrderNo": {
+                "title": "當前訂單",
+                "type": "hidden",
+                "required": false,
+                "search": "string"
+            },
+            "clothNo": {
+                "title": "當前布號",
+                "type": "hidden",
+                "required": false,
+                "search": "date"
+            },
+            "weavingMachineCoreNo": {
+                "title": "機台編號",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "morningShiftAverageManufactureEfficiency": {
+                "title": "早班生產效率",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "lunchShiftAverageManufactureEfficiency": {
+                "title": "午班生產效率",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "nightShiftAverageManufactureEfficiency": {
+                "title": "夜班生產效率",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "morningShiftMember": {
+                "title": "早班檔車人員",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "lunchShiftMember": {
+                "title": "午班檔車人員",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "nightShiftMember": {
+                "title": "夜班檔車人員",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "instrumentPanelPerShiftUuid": "0e8792e0-2de1-4165-8078-d08f2be4e67b",
+                "smbPerShiftUuid": "df0e56bd-6a0c-41c8-9a05-ee53993bbacc",
+                "manufactureOrderNo": [
+                    "MO-20191013-1",
+                    "MO-20191014-2"
+                ],
+                "clothOrderNo": [
+                    "OD-20191013-1",
+                    "OD-20191014-2"
+                ],
+                "clothNo": [
+                    "ws-1234",
+                    "ws-2345"
+                ],
+                "weavingMachineCoreNo": "101",
+                "morningShiftAverageManufactureEfficiency": "98.1%",
+                "lunchShiftAverageManufactureEfficiency": "98.1%",
+                "nightShiftAverageManufactureEfficiency": "98.1%",
+                "morningShiftMember": "吳康人",
+                "lunchShiftMember": "陳美莉",
+                "nightShiftMember": "陳美莉"
+            },
+            {
+                "instrumentPanelPerShiftUuid": "18190f45-03db-4034-8372-5f61355c5346",
+                "smbPerShiftUuid": "606a785c-6311-4e9e-be57-d37e341d211b",
+                "manufactureOrderNo": [
+                    "MO-20191014-1",
+                    "MO-20191015-1"
+                ],
+                "clothOrderNo": [
+                    "OD-20191014-1",
+                    "OD-20191015-1"
+                ],
+                "clothNo": [
+                    "ws-3456",
+                    "ws-3567"
+                ],
+                "weavingMachineCoreNo": "102",
+                "morningShiftAverageManufactureEfficiency": "97.8%",
+                "lunchShiftAverageManufactureEfficiency": "96.9%",
+                "nightShiftAverageManufactureEfficiency": "96.9%",
+                "morningShiftMember": "葉伊信",
+                "lunchShiftMember": "吳聰明",
+                "nightShiftMember": "吳聰明"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

@@ -1,0 +1,107 @@
+#add {
+  margin-bottom: 2px;
+  padding-top: 5px;
+  font-size: 15px;
+  height: 20px;
+}
+
+#delete {
+  display: none;
+}
+
+.search {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search input {
+  text-indent: 30px;
+  font-family: FontAwesome, sans-serif;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  font-size: 15px;
+}
+
+.k-filter-row th,
+.k-grid-header th.k-header,
+.k-grid-header th.k-header > .k-link {
+  white-space: pre-line;
+  overflow: visible;
+}
+
+.k-grid-header .k-grid-header-wrap th.k-header {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.k-pager-input > .k-textbox {
+  border-radius: 100%;
+  text-align: center;
+  height: 2.5em;
+  width: 2.5em;
+  text-indent: 0;
+}
+
+.iconSize {
+  font-size: 20px;
+}
+
+.k-grid tbody .k-button {
+  min-width: 16px;
+}
+
+.k-grid .k-button {
+  margin: 0;
+  transition: all 0.3s;
+}
+
+.k-grid-edit {
+  padding: 8px 11px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.k-grid-update,
+.k-grid-cancel {
+  border-radius: 3px;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  width: 65px;
+  border: 1px solid transparent;
+}
+
+.btn-select {
+  transition: all 0.3s;
+}
+
+/*錯誤訊息紅色框大小*/
+.k-widget.k-tooltip-validation {
+  border-radius: 0 2px 4px 4px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  position: relative;
+  top: -8px;
+  width: 50%;
+}
+
+.errorIcon {
+  position: absolute;
+  top: 6px;
+  left: 90%;
+}

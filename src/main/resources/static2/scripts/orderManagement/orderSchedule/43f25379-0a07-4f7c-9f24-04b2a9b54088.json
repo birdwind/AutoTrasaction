@@ -1,0 +1,385 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "clothOrdrerDetail",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "clothOrdrerCore": {
+            "clothOrdrerCoreUuid": "ee4b5813-9f20-4d05-ad18-b195b8a972e1",
+            "clothOrderCoreNo": {
+                "title": "訂單編號",
+                "type": "label",
+                "required": true,
+                "value": "od-20191018-6"
+            },
+            "client": {
+                "title": "客戶",
+                "type": "label",
+                "required": false,
+                "value": "台元紡織"
+            },
+            "orderer": {
+                "title": "窗口",
+                "type": "label",
+                "required": false,
+                "value": "王美"
+            },
+            "orderer_email": {
+                "title": "窗口 e-mail",
+                "type": "label",
+                "required": false,
+                "value": "may@gmail.com"
+            },
+            "clientOrderNo": {
+                "title": "客戶端訂單號碼",
+                "type": "label",
+                "required": false,
+                "value": "5678"
+            },
+            "inChargeSales": {
+                "title": "業務",
+                "type": "label",
+                "required": false,
+                "value": "王小美"
+            },
+            "createDate": {
+                "title": "下單日期",
+                "type": "label",
+                "required": true,
+                "value": "2019/10/18"
+            },
+            "quotationCoreNo": {
+                "title": "報價單號",
+                "type": "label",
+                "required": false,
+                "value": "quo-20190918-6"
+            },
+            "quotationCoreUuid": {
+                "title": "報價單Uuid",
+                "type": "hidden",
+                "required": false,
+                "value": "82db5e8d-40b4-4b84-9e59-32f0726ed784"
+            }
+        },
+        "clothOrdrerDetails": {
+            "header": {
+                "clothNo": {
+                    "title": "布號",
+                    "type": "label",
+                    "required": false
+                },
+                "clothCoreGreySpec": {
+                    "title": "布種規格",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "clothNo": "ws998",
+                    "clothCoreGreySpec": "測試規格1"
+                }
+            ]
+        },
+        "yarnPurchaseDetails": {
+            "header": {
+                "yarnNo": {
+                    "title": "紗種",
+                    "type": "label",
+                    "required": false
+                },
+                "yarnPurchaseNo": {
+                    "title": "批號",
+                    "type": "label",
+                    "required": false
+                },
+                "supplier": {
+                    "title": "供應商",
+                    "type": "label",
+                    "required": false
+                },
+                "purchaseAmount": {
+                    "title": "採購數量",
+                    "type": "label",
+                    "required": false
+                },
+                "warpWeft": {
+                    "title": "經/緯",
+                    "type": "label",
+                    "required": false
+                },
+                "stock": {
+                    "title": "殘量",
+                    "type": "label",
+                    "required": false
+                }
+            },
+            "contents": [
+                {
+                    "yarnNo": "R32",
+                    "yarnPurchaseNo": "ba-001",
+                    "supplier": "新光",
+                    "purchaseAmount": "23件",
+                    "warpWeft": "經",
+                    "stock": "0"
+                },
+                {
+                    "yarnNo": "N18",
+                    "yarnPurchaseNo": "ba-033",
+                    "supplier": "三越",
+                    "purchaseAmount": "20公斤",
+                    "warpWeft": "緯",
+                    "stock": "1.2"
+                }
+            ]
+        },
+        "scheduleWarpingDetails": {
+            "header": {
+                "beamCoreNo": {
+                    "title": "軸號",
+                    "type": "label",
+                    "required": true
+                },
+                "beamLength": {
+                    "title": "軸長",
+                    "type": "label",
+                    "required": true
+                },
+                "warpingStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "warpingSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                },
+                "warpingFinishShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "beamCoreNo": "beam-001",
+                    "beamLength": "2000Y",
+                    "warpingStaff": "李阿珠",
+                    "warpingSupervisor": "李珠",
+                    "warpingFinishShift": "早"
+                },
+                {
+                    "beamCoreNo": "beam-002",
+                    "beamLength": "3000Y",
+                    "warpingStaff": "吳美麗",
+                    "warpingSupervisor": "吳麗",
+                    "warpingFinishShift": "午"
+                }
+            ]
+        },
+        "scheduleDrafingDetails": {
+            "header": {
+                "buckleCoreNo": {
+                    "title": "鋼釦號",
+                    "type": "label",
+                    "required": true
+                },
+                "beamCoreNo": {
+                    "title": "軸號",
+                    "type": "label",
+                    "required": true
+                },
+                "beamLength": {
+                    "title": "軸長",
+                    "type": "label",
+                    "required": true
+                },
+                "draftingDStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "draftingSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                },
+                "draftingfinishShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "buckleCoreNo": "buckle-001",
+                    "beamCoreNo": "beam-001",
+                    "beamLength": "2000Y",
+                    "draftingDStaff": "李阿珠",
+                    "draftingSupervisor": "李珠",
+                    "draftingfinishShift": "早"
+                },
+                {
+                    "buckleCoreNo": "buckle-002",
+                    "beamCoreNo": "beam-002",
+                    "beamLength": "3000Y",
+                    "draftingDStaff": "吳美麗",
+                    "draftingSupervisor": "吳麗",
+                    "draftingfinishShift": "午"
+                }
+            ]
+        },
+        "scheduleWeavingDetails": {
+            "header": {
+                "weavingMachineCoreNo": {
+                    "title": "織機編號",
+                    "type": "label",
+                    "required": true
+                },
+                "buckleCoreNo": {
+                    "title": "鋼釦號",
+                    "type": "label",
+                    "required": true
+                },
+                "beamCoreNo": {
+                    "title": "軸號",
+                    "type": "label",
+                    "required": true
+                },
+                "beamLength": {
+                    "title": "軸長",
+                    "type": "label",
+                    "required": true
+                },
+                "doffingStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "doffingSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                },
+                "doffingShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "weavingMachineCoreNo": "103",
+                    "buckleCoreNo": "buckle-001",
+                    "beamCoreNo": "beam-001",
+                    "beamLength": "2000Y",
+                    "doffingStaff": "李阿珠",
+                    "doffingSupervisor": "李珠",
+                    "doffingShift": "早"
+                },
+                {
+                    "weavingMachineCoreNo": "309",
+                    "buckleCoreNo": "buckle-002",
+                    "beamCoreNo": "beam-002",
+                    "beamLength": "3000Y",
+                    "doffingStaff": "吳美麗",
+                    "doffingSupervisor": "吳麗",
+                    "doffingShift": "午"
+                }
+            ]
+        },
+        "scheduleInspectionDetails": {
+            "header": {
+                "inspectionMachineCoreNo": {
+                    "title": "驗布機編號",
+                    "type": "label",
+                    "required": true
+                },
+                "weavingMachineCoreNo": {
+                    "title": "織機編號",
+                    "type": "label",
+                    "required": true
+                },
+                "finalYard": {
+                    "title": "碼長",
+                    "type": "label",
+                    "required": true
+                },
+                "inspectionStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "inspectionSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                },
+                "inspectionShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "inspectionMachineCoreNo": "103",
+                    "weavingMachineCoreNo": "103",
+                    "finalYard": "2000Y",
+                    "inspectionStaff": "李阿珠",
+                    "inspectionSupervisor": "李珠",
+                    "inspectionShift": "早"
+                },
+                {
+                    "inspectionMachineCoreNo": "309",
+                    "weavingMachineCoreNo": "309",
+                    "finalYard": "3000Y",
+                    "inspectionStaff": "吳美麗",
+                    "inspectionSupervisor": "吳麗",
+                    "inspectionShift": "午"
+                }
+            ]
+        },
+        "scheduleShipmentDetails": {
+            "header": {
+                "totalShipmentAmount": {
+                    "title": "出貨長度",
+                    "type": "label",
+                    "required": true
+                },
+                "actualShipmentDatetime": {
+                    "title": "出貨時間",
+                    "type": "label",
+                    "required": true
+                },
+                "shipmentStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "shipmentSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "totalShipmentAmount": "500Y",
+                    "actualShipmentDatetime": "2019/12/01",
+                    "shipmentStaff": "吳慶發",
+                    "shipmentSupervisor": "吳發"
+                },
+                {
+                    "totalShipmentAmount": "500Y",
+                    "actualShipmentDatetime": "2019/12/01",
+                    "shipmentStaff": "羅宇柱",
+                    "shipmentSupervisor": "羅柱"
+                }
+            ]
+        }
+    }
+}

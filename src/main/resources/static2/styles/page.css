@@ -1,0 +1,4139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  color: #333;
+  font-size: 15px;
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+  letter-spacing: 0.1em;
+
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.margin_auto {
+  margin: 0 auto;
+}
+
+.k-grid tr:hover {
+  background-color: #ebebeb;
+}
+
+.k-grid-header th.k-header {
+  text-align: center;
+  padding: .786em .6em;
+}
+
+.k-grid-content {
+  text-align: center;
+}
+
+.search-bar {
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  padding: 0px 15px 0px 15px;
+}
+
+.search-bar > .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 5px 0;
+}
+
+.search > .clear {
+  position: absolute;
+  font-size: 20px;
+  color: grey;
+  right: 52px;
+  top: 6px;
+  cursor: pointer;
+  display: none;
+  z-index: 3;
+}
+
+.search > .more-search {
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+.search > .more-search > a {
+  color: #555;
+}
+
+.sideMenuIcon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px 2px -6px -6px;
+}
+
+.selectedLink,
+.treeview.menu-open .treeViewBtn {
+  color: black !important;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0.2s;
+  -moz-transition: all 0.3s ease 0.2s;
+  -ms-transition: all 0.3s ease 0.2s;
+  -o-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.1s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.grid.btn {
+  background-color: #a9c5f3;
+  color: white;
+}
+
+.grid.btn:hover {
+  color: white;
+}
+
+/* 背景色 */
+.bg-dark-gray {
+  background-color: #434343 !important;
+  color: #FFFFFF;
+}
+
+.bg_black {
+  background-color: #000000;
+}
+
+.bg_dgray {
+  background-color: #565656;
+}
+
+.bg_blue {
+  background-color: #2b4986;
+}
+
+.bg_gray_e {
+  background-color: #eeeeee;
+}
+
+.bg_gray_d {
+  background-color: #DDDDDD;
+}
+
+.bg_white {
+  background-color: #FFFFFF;
+}
+
+.bg-dark {
+  background-color: #282828;
+  color: #fafafa;
+}
+
+.bg-light {
+  background-color: #EFEFEF;
+  color: #333;
+}
+
+.shadowbox {
+  background-color: #ffffff;
+  border-radius: 15px;
+  -moz-box-shadow: 0px 0px 10px #999999;
+  -webkit-box-shadow: 0px 0px 10px #999999;
+  box-shadow: 0px 5px 10px #999999;
+}
+
+/* 文字色 */
+.color_red {
+  color: #E54F0A;
+}
+
+.color_black {
+  color: #000000;
+}
+
+.color_dgray {
+  color: #444;
+}
+
+.color_gray {
+  color: #999;
+}
+
+.color_white {
+  color: #FFFFFF;
+}
+
+.color_dbrown {
+  color: #552b1c;
+}
+
+.color_brown {
+  color: #645046;
+}
+
+.color_yellow {
+  color: #fedd00;
+}
+
+.color_blue {
+  color: #2c4986;
+}
+
+.color_pink {
+  color: #ff2b66;
+}
+
+.color_green {
+  color: #82d081;
+}
+
+
+.textsize085 {
+  font-size: 0.85em;
+}
+
+.textsize12 {
+  font-size: 1.2em;
+}
+
+.textsize15 {
+  font-size: 1.5em;
+}
+
+.color-highlight {
+  color: #f7a017;
+}
+
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden
+}
+
+.clearfix:after {
+  clear: both
+}
+
+.clearfix {
+  zoom: 1
+}
+
+.imgcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.linedashed {
+  width: 100%;
+  height: 2px;
+  border-bottom: dashed 1px #A0A0A0;
+  clear: both;
+}
+
+.linesolid {
+  width: 100%;
+  height: 2px;
+  border-bottom: solid 1px #A0A0A0;
+  clear: both;
+}
+
+/* block inlineblock */
+.divblock {
+  display: block
+}
+
+.divinline {
+  display: inline
+}
+
+.divinlineblock {
+  display: inline-block
+}
+
+/* 寬度 */
+.width-40 {
+  width: 40px;
+}
+
+.width-60 {
+  width: 60px;
+}
+
+.width-80 {
+  width: 80px;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.width-140 {
+  width: 140px;
+}
+
+.w50 {
+  width: 50%;
+}
+
+/* float */
+.floatl {
+  float: left;
+}
+
+.floatr {
+  float: right;
+}
+
+/* 文字對齊 */
+.textc {
+  text-align: center;
+}
+
+.textl {
+  text-align: left;
+}
+
+.textr {
+  text-align: right;
+}
+
+
+/* ==================================================
+  3. Margin Sets and Padding Sets
+================================================== */
+
+.mt--xxs {
+  margin-top: 1px
+}
+
+.mt--xs {
+  margin-top: 5px
+}
+
+.mt--s {
+  margin-top: 10px
+}
+
+.mt--b {
+  margin-top: 15px
+}
+
+.mt--m {
+  margin-top: 20px
+}
+
+.mt--l {
+  margin-top: 30px
+}
+
+.mt--xl {
+  margin-top: 40px
+}
+
+.mt--xxl {
+  margin-top: 60px
+}
+
+.mb--xxs {
+  margin-bottom: 1px
+}
+
+.mb--xs {
+  margin-bottom: 5px
+}
+
+.mb--s {
+  margin-bottom: 10px
+}
+
+.mb--b {
+  margin-bottom: 15px
+}
+
+.mb--m {
+  margin-bottom: 20px
+}
+
+.mb--l {
+  margin-bottom: 30px
+}
+
+.mb--xl {
+  margin-bottom: 40px
+}
+
+.mb--xxl {
+  margin-bottom: 60px
+}
+
+.mt-0 {
+  margin-top: 0 !important
+}
+
+.mt-10 {
+  margin-top: 10px
+}
+
+.mt-20 {
+  margin-top: 20px
+}
+
+.mt-30 {
+  margin-top: 30px
+}
+
+.mt-40 {
+  margin-top: 40px
+}
+
+.mt-50 {
+  margin-top: 50px
+}
+
+.mt-60 {
+  margin-top: 60px
+}
+
+.mt-70 {
+  margin-top: 70px
+}
+
+.mt-80 {
+  margin-top: 80px
+}
+
+.mt-90 {
+  margin-top: 90px
+}
+
+.mt-100 {
+  margin-top: 100px
+}
+
+.mt-110 {
+  margin-top: 110px
+}
+
+.mt-120 {
+  margin-top: 120px
+}
+
+.mt-130 {
+  margin-top: 130px
+}
+
+.mt-140 {
+  margin-top: 140px
+}
+
+.mb-0 {
+  margin-bottom: 0 !important
+}
+
+.mb-10 {
+  margin-bottom: 10px
+}
+
+.mb-20 {
+  margin-bottom: 20px
+}
+
+.mb-30 {
+  margin-bottom: 30px
+}
+
+.mb-40 {
+  margin-bottom: 40px
+}
+
+.mb-50 {
+  margin-bottom: 50px
+}
+
+.mb-60 {
+  margin-bottom: 60px
+}
+
+.mb-70 {
+  margin-bottom: 70px
+}
+
+.mb-80 {
+  margin-bottom: 80px
+}
+
+.mb-90 {
+  margin-bottom: 90px
+}
+
+.mb-100 {
+  margin-bottom: 100px
+}
+
+.mb-110 {
+  margin-bottom: 110px
+}
+
+.mb-120 {
+  margin-bottom: 120px
+}
+
+.mb-130 {
+  margin-bottom: 130px
+}
+
+.mb-140 {
+  margin-bottom: 140px
+}
+
+.pt-0 {
+  padding-top: 0 !important
+}
+
+.pt-10 {
+  padding-top: 10px
+}
+
+.pt-20 {
+  padding-top: 20px
+}
+
+.pt-30 {
+  padding-top: 30px
+}
+
+.pt-40 {
+  padding-top: 40px
+}
+
+.pt-50 {
+  padding-top: 50px
+}
+
+.pt-60 {
+  padding-top: 60px
+}
+
+.pt-70 {
+  padding-top: 70px
+}
+
+.pt-80 {
+  padding-top: 80px
+}
+
+.pt-90 {
+  padding-top: 90px
+}
+
+.pt-100 {
+  padding-top: 100px
+}
+
+.pt-110 {
+  padding-top: 110px
+}
+
+.pt-120 {
+  padding-top: 120px
+}
+
+.pt-130 {
+  padding-top: 130px
+}
+
+.pt-140 {
+  padding-top: 140px
+}
+
+.pb-0 {
+  padding-bottom: 0 !important
+}
+
+.pb-10 {
+  padding-bottom: 10px
+}
+
+.pb-20 {
+  padding-bottom: 20px
+}
+
+.pb-30 {
+  padding-bottom: 30px
+}
+
+.pb-40 {
+  padding-bottom: 40px
+}
+
+.pb-50 {
+  padding-bottom: 50px
+}
+
+.pb-60 {
+  padding-bottom: 60px
+}
+
+.pb-70 {
+  padding-bottom: 70px
+}
+
+.pb-80 {
+  padding-bottom: 80px
+}
+
+.pb-90 {
+  padding-bottom: 90px
+}
+
+.pb-100 {
+  padding-bottom: 100px
+}
+
+.pb-110 {
+  padding-bottom: 110px
+}
+
+.pb-120 {
+  padding-bottom: 120px
+}
+
+.pb-130 {
+  padding-bottom: 130px
+}
+
+.pb-140 {
+  padding-bottom: 140px
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .mt-lg-0 {
+    margin-top: 0 !important
+  }
+
+  .mt-lg-10 {
+    margin-top: 10px
+  }
+
+  .mt-lg-20 {
+    margin-top: 20px
+  }
+
+  .mt-lg-30 {
+    margin-top: 30px
+  }
+
+  .mt-lg-40 {
+    margin-top: 40px
+  }
+
+  .mt-lg-50 {
+    margin-top: 50px
+  }
+
+  .mt-lg-60 {
+    margin-top: 60px
+  }
+
+  .mt-lg-70 {
+    margin-top: 70px
+  }
+
+  .mt-lg-80 {
+    margin-top: 80px
+  }
+
+  .mt-lg-90 {
+    margin-top: 90px
+  }
+
+  .mt-lg-100 {
+    margin-top: 100px
+  }
+
+  .mt-lg-110 {
+    margin-top: 110px
+  }
+
+  .mt-lg-120 {
+    margin-top: 120px
+  }
+
+  .mt-lg-130 {
+    margin-top: 130px
+  }
+
+  .mt-lg-140 {
+    margin-top: 140px
+  }
+
+  .mb-lg-0 {
+    margin-bottom: 0 !important
+  }
+
+  .mb-lg-10 {
+    margin-bottom: 10px
+  }
+
+  .mb-lg-20 {
+    margin-bottom: 20px
+  }
+
+  .mb-lg-30 {
+    margin-bottom: 30px
+  }
+
+  .mb-lg-40 {
+    margin-bottom: 40px
+  }
+
+  .mb-lg-50 {
+    margin-bottom: 50px
+  }
+
+  .mb-lg-60 {
+    margin-bottom: 60px
+  }
+
+  .mb-lg-70 {
+    margin-bottom: 70px
+  }
+
+  .mb-lg-80 {
+    margin-bottom: 80px
+  }
+
+  .mb-lg-90 {
+    margin-bottom: 90px
+  }
+
+  .mb-lg-100 {
+    margin-bottom: 100px
+  }
+
+  .mb-lg-110 {
+    margin-bottom: 110px
+  }
+
+  .mb-lg-120 {
+    margin-bottom: 120px
+  }
+
+  .mb-lg-130 {
+    margin-bottom: 130px
+  }
+
+  .mb-lg-140 {
+    margin-bottom: 140px
+  }
+
+  .pt-lg-0 {
+    padding-top: 0 !important
+  }
+
+  .pt-lg-10 {
+    padding-top: 10px
+  }
+
+  .pt-lg-20 {
+    padding-top: 20px
+  }
+
+  .pt-lg-30 {
+    padding-top: 30px
+  }
+
+  .pt-lg-40 {
+    padding-top: 40px
+  }
+
+  .pt-lg-50 {
+    padding-top: 50px
+  }
+
+  .pt-lg-60 {
+    padding-top: 60px
+  }
+
+  .pt-lg-70 {
+    padding-top: 70px
+  }
+
+  .pt-lg-80 {
+    padding-top: 80px
+  }
+
+  .pt-lg-90 {
+    padding-top: 90px
+  }
+
+  .pt-lg-100 {
+    padding-top: 100px
+  }
+
+  .pt-lg-110 {
+    padding-top: 110px
+  }
+
+  .pt-lg-120 {
+    padding-top: 120px
+  }
+
+  .pt-lg-130 {
+    padding-top: 130px
+  }
+
+  .pt-lg-140 {
+    padding-top: 140px
+  }
+
+  .pb-lg-0 {
+    padding-bottom: 0 !important
+  }
+
+  .pb-lg-10 {
+    padding-bottom: 10px
+  }
+
+  .pb-lg-20 {
+    padding-bottom: 20px
+  }
+
+  .pb-lg-30 {
+    padding-bottom: 30px
+  }
+
+  .pb-lg-40 {
+    padding-bottom: 40px
+  }
+
+  .pb-lg-50 {
+    padding-bottom: 50px
+  }
+
+  .pb-lg-60 {
+    padding-bottom: 60px
+  }
+
+  .pb-lg-70 {
+    padding-bottom: 70px
+  }
+
+  .pb-lg-80 {
+    padding-bottom: 80px
+  }
+
+  .pb-lg-90 {
+    padding-bottom: 90px
+  }
+
+  .pb-lg-100 {
+    padding-bottom: 100px
+  }
+
+  .pb-lg-110 {
+    padding-bottom: 110px
+  }
+
+  .pb-lg-120 {
+    padding-bottom: 120px
+  }
+
+  .pb-lg-130 {
+    padding-bottom: 130px
+  }
+
+  .pb-lg-140 {
+    padding-bottom: 140px
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mt-md-0 {
+    margin-top: 0 !important
+  }
+
+  .mt-md-10 {
+    margin-top: 10px
+  }
+
+  .mt-md-20 {
+    margin-top: 20px
+  }
+
+  .mt-md-30 {
+    margin-top: 30px
+  }
+
+  .mt-md-40 {
+    margin-top: 40px
+  }
+
+  .mt-md-50 {
+    margin-top: 50px
+  }
+
+  .mt-md-60 {
+    margin-top: 60px
+  }
+
+  .mt-md-70 {
+    margin-top: 70px
+  }
+
+  .mt-md-80 {
+    margin-top: 80px
+  }
+
+  .mt-md-90 {
+    margin-top: 90px
+  }
+
+  .mt-md-100 {
+    margin-top: 100px
+  }
+
+  .mt-md-110 {
+    margin-top: 110px
+  }
+
+  .mt-md-120 {
+    margin-top: 120px
+  }
+
+  .mt-md-130 {
+    margin-top: 130px
+  }
+
+  .mt-md-140 {
+    margin-top: 140px
+  }
+
+  .mb-md-0 {
+    margin-bottom: 0 !important
+  }
+
+  .mb-md-10 {
+    margin-bottom: 10px
+  }
+
+  .mb-md-20 {
+    margin-bottom: 20px
+  }
+
+  .mb-md-30 {
+    margin-bottom: 30px
+  }
+
+  .mb-md-40 {
+    margin-bottom: 40px
+  }
+
+  .mb-md-50 {
+    margin-bottom: 50px
+  }
+
+  .mb-md-60 {
+    margin-bottom: 60px
+  }
+
+  .mb-md-70 {
+    margin-bottom: 70px
+  }
+
+  .mb-md-80 {
+    margin-bottom: 80px
+  }
+
+  .mb-md-90 {
+    margin-bottom: 90px
+  }
+
+  .mb-md-100 {
+    margin-bottom: 100px
+  }
+
+  .mb-md-110 {
+    margin-bottom: 110px
+  }
+
+  .mb-md-120 {
+    margin-bottom: 120px
+  }
+
+  .mb-md-130 {
+    margin-bottom: 130px
+  }
+
+  .mb-md-140 {
+    margin-bottom: 140px
+  }
+
+  .pt-md-0 {
+    padding-top: 0 !important
+  }
+
+  .pt-md-10 {
+    padding-top: 10px
+  }
+
+  .pt-md-20 {
+    padding-top: 20px
+  }
+
+  .pt-md-30 {
+    padding-top: 30px
+  }
+
+  .pt-md-40 {
+    padding-top: 40px
+  }
+
+  .pt-md-50 {
+    padding-top: 50px
+  }
+
+  .pt-md-60 {
+    padding-top: 60px
+  }
+
+  .pt-md-70 {
+    padding-top: 70px
+  }
+
+  .pt-md-80 {
+    padding-top: 80px
+  }
+
+  .pt-md-90 {
+    padding-top: 90px
+  }
+
+  .pt-md-100 {
+    padding-top: 100px
+  }
+
+  .pt-md-110 {
+    padding-top: 110px
+  }
+
+  .pt-md-120 {
+    padding-top: 120px
+  }
+
+  .pt-md-130 {
+    padding-top: 130px
+  }
+
+  .pt-md-140 {
+    padding-top: 140px
+  }
+
+  .pb-md-0 {
+    padding-bottom: 0 !important
+  }
+
+  .pb-md-10 {
+    padding-bottom: 10px
+  }
+
+  .pb-md-20 {
+    padding-bottom: 20px
+  }
+
+  .pb-md-30 {
+    padding-bottom: 30px
+  }
+
+  .pb-md-40 {
+    padding-bottom: 40px
+  }
+
+  .pb-md-50 {
+    padding-bottom: 50px
+  }
+
+  .pb-md-60 {
+    padding-bottom: 60px
+  }
+
+  .pb-md-70 {
+    padding-bottom: 70px
+  }
+
+  .pb-md-80 {
+    padding-bottom: 80px
+  }
+
+  .pb-md-90 {
+    padding-bottom: 90px
+  }
+
+  .pb-md-100 {
+    padding-bottom: 100px
+  }
+
+  .pb-md-110 {
+    padding-bottom: 110px
+  }
+
+  .pb-md-120 {
+    padding-bottom: 120px
+  }
+
+  .pb-md-130 {
+    padding-bottom: 130px
+  }
+
+  .pb-md-140 {
+    padding-bottom: 140px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mt-sm-0 {
+    margin-top: 0 !important
+  }
+
+  .mt-sm-10 {
+    margin-top: 10px
+  }
+
+  .mt-sm-20 {
+    margin-top: 20px
+  }
+
+  .mt-sm-30 {
+    margin-top: 30px
+  }
+
+  .mt-sm-40 {
+    margin-top: 40px
+  }
+
+  .mt-sm-50 {
+    margin-top: 50px
+  }
+
+  .mt-sm-60 {
+    margin-top: 60px
+  }
+
+  .mt-sm-70 {
+    margin-top: 70px
+  }
+
+  .mt-sm-80 {
+    margin-top: 80px
+  }
+
+  .mt-sm-90 {
+    margin-top: 90px
+  }
+
+  .mt-sm-100 {
+    margin-top: 100px
+  }
+
+  .mt-sm-110 {
+    margin-top: 110px
+  }
+
+  .mt-sm-120 {
+    margin-top: 120px
+  }
+
+  .mt-sm-130 {
+    margin-top: 130px
+  }
+
+  .mt-sm-140 {
+    margin-top: 140px
+  }
+
+  .mb-sm-0 {
+    margin-bottom: 0 !important
+  }
+
+  .mb-sm-10 {
+    margin-bottom: 10px
+  }
+
+  .mb-sm-20 {
+    margin-bottom: 20px
+  }
+
+  .mb-sm-30 {
+    margin-bottom: 30px
+  }
+
+  .mb-sm-40 {
+    margin-bottom: 40px
+  }
+
+  .mb-sm-50 {
+    margin-bottom: 50px
+  }
+
+  .mb-sm-60 {
+    margin-bottom: 60px
+  }
+
+  .mb-sm-70 {
+    margin-bottom: 70px
+  }
+
+  .mb-sm-80 {
+    margin-bottom: 80px
+  }
+
+  .mb-sm-90 {
+    margin-bottom: 90px
+  }
+
+  .mb-sm-100 {
+    margin-bottom: 100px
+  }
+
+  .mb-sm-110 {
+    margin-bottom: 110px
+  }
+
+  .mb-sm-120 {
+    margin-bottom: 120px
+  }
+
+  .mb-sm-130 {
+    margin-bottom: 130px
+  }
+
+  .mb-sm-140 {
+    margin-bottom: 140px
+  }
+
+  .pt-sm-0 {
+    padding-top: 0 !important
+  }
+
+  .pt-sm-10 {
+    padding-top: 10px
+  }
+
+  .pt-sm-20 {
+    padding-top: 20px
+  }
+
+  .pt-sm-30 {
+    padding-top: 30px
+  }
+
+  .pt-sm-40 {
+    padding-top: 40px
+  }
+
+  .pt-sm-50 {
+    padding-top: 50px
+  }
+
+  .pt-sm-60 {
+    padding-top: 60px
+  }
+
+  .pt-sm-70 {
+    padding-top: 70px
+  }
+
+  .pt-sm-80 {
+    padding-top: 80px
+  }
+
+  .pt-sm-90 {
+    padding-top: 90px
+  }
+
+  .pt-sm-100 {
+    padding-top: 100px
+  }
+
+  .pt-sm-110 {
+    padding-top: 110px
+  }
+
+  .pt-sm-120 {
+    padding-top: 120px
+  }
+
+  .pt-sm-130 {
+    padding-top: 130px
+  }
+
+  .pt-sm-140 {
+    padding-top: 140px
+  }
+
+  .pb-sm-0 {
+    padding-bottom: 0 !important
+  }
+
+  .pb-sm-10 {
+    padding-bottom: 10px
+  }
+
+  .pb-sm-20 {
+    padding-bottom: 20px
+  }
+
+  .pb-sm-30 {
+    padding-bottom: 30px
+  }
+
+  .pb-sm-40 {
+    padding-bottom: 40px
+  }
+
+  .pb-sm-50 {
+    padding-bottom: 50px
+  }
+
+  .pb-sm-60 {
+    padding-bottom: 60px
+  }
+
+  .pb-sm-70 {
+    padding-bottom: 70px
+  }
+
+  .pb-sm-80 {
+    padding-bottom: 80px
+  }
+
+  .pb-sm-90 {
+    padding-bottom: 90px
+  }
+
+  .pb-sm-100 {
+    padding-bottom: 100px
+  }
+
+  .pb-sm-110 {
+    padding-bottom: 110px
+  }
+
+  .pb-sm-120 {
+    padding-bottom: 120px
+  }
+
+  .pb-sm-130 {
+    padding-bottom: 130px
+  }
+
+  .pb-sm-140 {
+    padding-bottom: 140px
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mt-xs-0 {
+    margin-top: 0 !important
+  }
+
+  .mt-xs-10 {
+    margin-top: 10px
+  }
+
+  .mt-xs-20 {
+    margin-top: 20px
+  }
+
+  .mt-xs-30 {
+    margin-top: 30px
+  }
+
+  .mt-xs-40 {
+    margin-top: 40px
+  }
+
+  .mt-xs-50 {
+    margin-top: 50px
+  }
+
+  .mt-xs-60 {
+    margin-top: 60px
+  }
+
+  .mt-xs-70 {
+    margin-top: 70px
+  }
+
+  .mt-xs-80 {
+    margin-top: 80px
+  }
+
+  .mt-xs-90 {
+    margin-top: 90px
+  }
+
+  .mt-xs-100 {
+    margin-top: 100px
+  }
+
+  .mt-xs-110 {
+    margin-top: 110px
+  }
+
+  .mt-xs-120 {
+    margin-top: 120px
+  }
+
+  .mt-xs-130 {
+    margin-top: 130px
+  }
+
+  .mt-xs-140 {
+    margin-top: 140px
+  }
+
+  .mb-xs-0 {
+    margin-bottom: 0 !important
+  }
+
+  .mb-xs-10 {
+    margin-bottom: 10px
+  }
+
+  .mb-xs-20 {
+    margin-bottom: 20px
+  }
+
+  .mb-xs-30 {
+    margin-bottom: 30px
+  }
+
+  .mb-xs-40 {
+    margin-bottom: 40px
+  }
+
+  .mb-xs-50 {
+    margin-bottom: 50px
+  }
+
+  .mb-xs-60 {
+    margin-bottom: 60px
+  }
+
+  .mb-xs-70 {
+    margin-bottom: 70px
+  }
+
+  .mb-xs-80 {
+    margin-bottom: 80px
+  }
+
+  .mb-xs-90 {
+    margin-bottom: 90px
+  }
+
+  .mb-xs-100 {
+    margin-bottom: 100px
+  }
+
+  .mb-xs-110 {
+    margin-bottom: 110px
+  }
+
+  .mb-xs-120 {
+    margin-bottom: 120px
+  }
+
+  .mb-xs-130 {
+    margin-bottom: 130px
+  }
+
+  .mb-xs-140 {
+    margin-bottom: 140px
+  }
+
+  .pt-xs-0 {
+    padding-top: 0 !important
+  }
+
+  .pt-xs-10 {
+    padding-top: 10px
+  }
+
+  .pt-xs-20 {
+    padding-top: 20px
+  }
+
+  .pt-xs-30 {
+    padding-top: 30px
+  }
+
+  .pt-xs-40 {
+    padding-top: 40px
+  }
+
+  .pt-xs-50 {
+    padding-top: 50px
+  }
+
+  .pt-xs-60 {
+    padding-top: 60px
+  }
+
+  .pt-xs-70 {
+    padding-top: 70px
+  }
+
+  .pt-xs-80 {
+    padding-top: 80px
+  }
+
+  .pt-xs-90 {
+    padding-top: 90px
+  }
+
+  .pt-xs-100 {
+    padding-top: 100px
+  }
+
+  .pt-xs-110 {
+    padding-top: 110px
+  }
+
+  .pt-xs-120 {
+    padding-top: 120px
+  }
+
+  .pt-xs-130 {
+    padding-top: 130px
+  }
+
+  .pt-xs-140 {
+    padding-top: 140px
+  }
+
+  .pb-xs-0 {
+    padding-bottom: 0 !important
+  }
+
+  .pb-xs-10 {
+    padding-bottom: 10px
+  }
+
+  .pb-xs-20 {
+    padding-bottom: 20px
+  }
+
+  .pb-xs-30 {
+    padding-bottom: 30px
+  }
+
+  .pb-xs-40 {
+    padding-bottom: 40px
+  }
+
+  .pb-xs-50 {
+    padding-bottom: 50px
+  }
+
+  .pb-xs-60 {
+    padding-bottom: 60px
+  }
+
+  .pb-xs-70 {
+    padding-bottom: 70px
+  }
+
+  .pb-xs-80 {
+    padding-bottom: 80px
+  }
+
+  .pb-xs-90 {
+    padding-bottom: 90px
+  }
+
+  .pb-xs-100 {
+    padding-bottom: 100px
+  }
+
+  .pb-xs-110 {
+    padding-bottom: 110px
+  }
+
+  .pb-xs-120 {
+    padding-bottom: 120px
+  }
+
+  .pb-xs-130 {
+    padding-bottom: 130px
+  }
+
+  .pb-xs-140 {
+    padding-bottom: 140px
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mt-xxs-0 {
+    margin-top: 0 !important
+  }
+
+  .mt-xxs-10 {
+    margin-top: 10px
+  }
+
+  .mt-xxs-20 {
+    margin-top: 20px
+  }
+
+  .mt-xxs-30 {
+    margin-top: 30px
+  }
+
+  .mt-xxs-40 {
+    margin-top: 40px
+  }
+
+  .mt-xxs-50 {
+    margin-top: 50px
+  }
+
+  .mt-xxs-60 {
+    margin-top: 60px
+  }
+
+  .mt-xxs-70 {
+    margin-top: 70px
+  }
+
+  .mt-xxs-80 {
+    margin-top: 80px
+  }
+
+  .mt-xxs-90 {
+    margin-top: 90px
+  }
+
+  .mt-xxs-100 {
+    margin-top: 100px
+  }
+
+  .mt-xxs-110 {
+    margin-top: 110px
+  }
+
+  .mt-xxs-120 {
+    margin-top: 120px
+  }
+
+  .mt-xxs-130 {
+    margin-top: 130px
+  }
+
+  .mt-xxs-140 {
+    margin-top: 140px
+  }
+
+  .mb-xxs-0 {
+    margin-bottom: 0 !important
+  }
+
+  .mb-xxs-10 {
+    margin-bottom: 10px
+  }
+
+  .mb-xxs-20 {
+    margin-bottom: 20px
+  }
+
+  .mb-xxs-30 {
+    margin-bottom: 30px
+  }
+
+  .mb-xxs-40 {
+    margin-bottom: 40px
+  }
+
+  .mb-xxs-50 {
+    margin-bottom: 50px
+  }
+
+  .mb-xxs-60 {
+    margin-bottom: 60px
+  }
+
+  .mb-xxs-70 {
+    margin-bottom: 70px
+  }
+
+  .mb-xxs-80 {
+    margin-bottom: 80px
+  }
+
+  .mb-xxs-90 {
+    margin-bottom: 90px
+  }
+
+  .mb-xxs-100 {
+    margin-bottom: 100px
+  }
+
+  .mb-xxs-110 {
+    margin-bottom: 110px
+  }
+
+  .mb-xxs-120 {
+    margin-bottom: 120px
+  }
+
+  .mb-xxs-130 {
+    margin-bottom: 130px
+  }
+
+  .mb-xxs-140 {
+    margin-bottom: 140px
+  }
+
+  .pt-xxs-0 {
+    padding-top: 0 !important
+  }
+
+  .pt-xxs-10 {
+    padding-top: 10px
+  }
+
+  .pt-xxs-20 {
+    padding-top: 20px
+  }
+
+  .pt-xxs-30 {
+    padding-top: 30px
+  }
+
+  .pt-xxs-40 {
+    padding-top: 40px
+  }
+
+  .pt-xxs-50 {
+    padding-top: 50px
+  }
+
+  .pt-xxs-60 {
+    padding-top: 60px
+  }
+
+  .pt-xxs-70 {
+    padding-top: 70px
+  }
+
+  .pt-xxs-80 {
+    padding-top: 80px
+  }
+
+  .pt-xxs-90 {
+    padding-top: 90px
+  }
+
+  .pt-xxs-100 {
+    padding-top: 100px
+  }
+
+  .pt-xxs-110 {
+    padding-top: 110px
+  }
+
+  .pt-xxs-120 {
+    padding-top: 120px
+  }
+
+  .pt-xxs-130 {
+    padding-top: 130px
+  }
+
+  .pt-xxs-140 {
+    padding-top: 140px
+  }
+
+  .pb-xxs-0 {
+    padding-bottom: 0 !important
+  }
+
+  .pb-xxs-10 {
+    padding-bottom: 10px
+  }
+
+  .pb-xxs-20 {
+    padding-bottom: 20px
+  }
+
+  .pb-xxs-30 {
+    padding-bottom: 30px
+  }
+
+  .pb-xxs-40 {
+    padding-bottom: 40px
+  }
+
+  .pb-xxs-50 {
+    padding-bottom: 50px
+  }
+
+  .pb-xxs-60 {
+    padding-bottom: 60px
+  }
+
+  .pb-xxs-70 {
+    padding-bottom: 70px
+  }
+
+  .pb-xxs-80 {
+    padding-bottom: 80px
+  }
+
+  .pb-xxs-90 {
+    padding-bottom: 90px
+  }
+
+  .pb-xxs-100 {
+    padding-bottom: 100px
+  }
+
+  .pb-xxs-110 {
+    padding-bottom: 110px
+  }
+
+  .pb-xxs-120 {
+    padding-bottom: 120px
+  }
+
+  .pb-xxs-130 {
+    padding-bottom: 130px
+  }
+
+  .pb-xxs-140 {
+    padding-bottom: 140px
+  }
+
+}
+
+
+/* ==================================================
+  4. Spacers Sets
+================================================== */
+.spacer-10 {
+  height: 10px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-20 {
+  height: 20px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-30 {
+  height: 30px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-40 {
+  height: 40px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-50 {
+  height: 50px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-60 {
+  height: 60px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-70 {
+  height: 70px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-80 {
+  height: 80px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-90 {
+  height: 90px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-100 {
+  height: 100px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-15 {
+  height: 15px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-25 {
+  height: 25px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-35 {
+  height: 35px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-45 {
+  height: 45px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-55 {
+  height: 55px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-65 {
+  height: 65px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-75 {
+  height: 75px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-85 {
+  height: 85px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-95 {
+  height: 95px;
+  clear: both;
+  width: 100%;
+}
+
+
+/* ==================================================
+  5. Display none
+================================================== */
+@media (max-width: 767px) {
+  .d-767-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .d-768-none {
+    display: none !important;
+  }
+}
+
+
+/* ==================================================
+  6. Table
+================================================== */
+
+/* .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+  vertical-align: middle;
+} */
+/*表格上功能 新刪搜*/
+.table_bar {
+  background-color: #3399ff;
+  padding: 5px;
+  min-height: 45px;
+}
+
+.k-header.k-grid-toolbar {
+  background-color: #3399ff;
+  padding: 5px;
+}
+
+.table_bar_box {
+  display: inline-block;
+  width: 106px;
+  margin: 0 -15px;
+}
+
+.table_bar_box .btn {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 11px;
+}
+
+.addBtn,
+.delBtn {
+  background-color: #3399ff;
+  font-weight: normal;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.delBtn {
+  display: none;
+  background-color: black;
+  position: absolute;
+  left: -18px;
+  top: -5px;
+}
+
+.extraEmail:hover .delBtn {
+  display: block;
+}
+
+.extraAddress:hover .delBtn {
+  display: block;
+}
+
+.extraFax:hover .delBtn {
+  display: block;
+}
+
+.extraPhone:hover .delBtn {
+  display: block;
+}
+
+.addBtn + .tooltip > .tooltip-inner {
+  background-color: #7cb4ec;
+  font-size: 15px;
+}
+
+.addBtn + .tooltip > .tooltip-arrow {
+  border-top-color: #7cb4ec;
+}
+
+.table_bar .btn:not([id^='save']) {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 11px;
+}
+
+.table_bar .input-group .input-group-addon {
+  border-radius: 5px;
+}
+
+/*表格上標題塊*/
+.table_bar_title {
+  background-color: #d6d8d8;
+  padding: 0 15px;
+  height: 45px;
+  line-height: 45px;
+  color: #333;
+}
+
+/*表格上功能 存取消回上頁*/
+.box_features {
+  padding: 16px;
+  position: fixed;
+  z-index: 10;
+  right: -10px;
+  top: 90vh;
+  border-radius: 50px;
+  cursor: ns-resize;
+}
+
+.box_features:hover {
+  box-shadow: 0px 0px 10px 5px lightgrey;
+}
+
+/*表格下頁數*/
+.table_pagebar {
+  background-color: #fff;
+  padding: 5px;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .table_pagebar {
+    border: 1px solid #ddd;
+    border-top: 0;
+  }
+}
+
+/*表格下頁數按鈕*/
+.pbicon {
+  background-color: #9c9c9c;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  -webkit-mask-size: cover !important;
+  mask-size: cover !important;
+
+  -webkit-transition: all 0.3s ease 0.2s;
+  -moz-transition: all 0.3s ease 0.2s;
+  -ms-transition: all 0.3s ease 0.2s;
+  -o-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.1s;
+}
+
+a.pbicon:hover {
+  background-color: #666;
+}
+
+/*表格下頁數按鈕 <| < > >|*/
+.pbicon1 {
+  -webkit-mask: url("/images/saltar-a-pista-anterior.svg") no-repeat 50% 50%;
+  mask: url(/images/saltar-a-pista-anterior.svg) no-repeat 50% 50%;
+}
+
+.pbicon2 {
+  -webkit-mask: url("/images/left-arrow.svg") no-repeat 50% 50%;
+  mask: url(/images/left-arrow.svg) no-repeat 50% 50%;
+}
+
+.pbicon3 {
+  -webkit-mask: url("/images/right-arrow.svg") no-repeat 50% 50%;
+  mask: url(/images/right-arrow.svg) no-repeat 50% 50%;
+}
+
+.pbicon4 {
+  -webkit-mask: url("/images/skip-track-option.svg") no-repeat 50% 50%;
+  mask: url(/images/skip-track-option.svg) no-repeat 50% 50%;
+}
+
+
+/*表格輸入框頁籤樣式*/
+.box_inputdata {
+  position: relative;
+}
+
+/* .box_inputdata label{
+  border: 1px solid #39f;
+  padding: 7px;
+  border-radius: 0 12px 0 0;
+  margin-bottom: -1px;
+  width: 200px;
+} */
+.box_inputdata label.checkbox {
+  width: 18px;
+  display: inline-block;
+}
+
+.box_inputdata nav {
+  font-weight: bold;
+  width: 14%;
+  display: inline-block;
+}
+
+.box_inputdata .form-control {
+  display: inline-block;
+  width: 85%;
+  border-color: #3399ff;
+  border-radius: 4px;
+}
+
+.box_inputdata .k-multiselect.form-control {
+  display: inline-table;
+}
+
+.box_inputdata .select2-selection--single {
+  border: 1px solid #3399ff;
+  border-radius: 0 4px 4px;
+}
+
+.box_inputdata .date .input-group-addon {
+  border-color: #3399ff;
+  border-radius: 0px 0 0 4px;
+}
+
+.box_inputdata .date .form-control {
+  border-radius: 0 0 4px;
+}
+
+/*不能編輯*/
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control,
+fieldset.disabled .form-control {
+  background-color: #f5f5f5;
+  border: 1px solid #dedede;
+  opacity: 1;
+}
+
+/*無邊框*/
+.noborder {
+  border: none !important;
+}
+
+/*星星*/
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label,
+  /* show gold star when clicked */
+.rating:not(:checked) > label:hover,
+  /* hover current star */
+.rating:not(:checked) > label:hover ~ label {
+  color: #FFD700;
+}
+
+/* hover previous stars in list */
+
+.rating > input:checked + label:hover,
+  /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+  /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+}
+
+
+/*表格裡的icon按鈕們*/
+a.table_btn {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 34px;
+}
+
+/*btn圓*/
+.btn_circle {
+  border-radius: 50px
+}
+
+/*btn藍*/
+a.table_btn_blue {
+  border: 1px solid #478cfc;
+  color: #478cfc
+}
+
+/*btn綠 列印*/
+a.table_btn_green {
+  border: 1px solid #82d081;
+  color: #82d081
+}
+
+/*btn紫 編輯*/
+a.table_btn_purple {
+  border: 1px solid #8658dd;
+  color: #8658dd
+}
+
+/*btn桃紅 刪除*/
+a.table_btn_pink {
+  border: 1px solid #ff2b66;
+  color: #ff2b66
+}
+
+/*btn桃紅圓角矩形 進貨*/
+a.table_btn_status {
+  display: inline-block;
+  padding: .2em .6em;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+  min-width: 48px;
+}
+
+a.table_btn_warning {
+  background-color: #ff2b66;
+}
+
+a.table_btn_warning:hover {
+  background-color: #f15d86;
+}
+
+/*btn icon 資訊串流*/
+.table_btn_icon {
+  width: 32px;
+  fill: #e6d930;
+  fill: black;
+}
+
+/* btn icon 產生訂單 */
+a.table_btn_creatForm {
+  width: 32px;
+  background-color: #6aa84fff;
+}
+
+/* btn icon 成本分析 */
+a.table_btn_analysis {
+  width: 32px;
+  background-color: #f1c232ff;
+}
+
+/* btn icon 訂單紀錄 */
+a.table_btn_record {
+  width: 32px;
+  background-color: #a4c2f4ff;
+}
+
+.btn_message {
+  position: absolute;
+  right: -25px;
+  cursor: pointer;
+  background-color: #ff2b66;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+}
+
+/*最後回覆紀錄*/
+.record {
+  font-size: 8px;
+  color: #b1b1b1;
+  padding: 5px;
+}
+
+/*區塊 檔案上傳*/
+.uploadbox {
+  border: 1px solid #3399ff;
+  border-radius: 0 4px 4px;
+  padding: 5px;
+}
+
+/*區塊純框 */
+.boxline {
+  border: 1px solid #3399ff;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+/*btn 檔案上傳*/
+a.btn_upload {
+  background-color: #cfe2f3;
+  border: 1px solid #a9c5f3;
+  color: #666;
+}
+
+a.clear_upload {
+  background-color: #f7acac;
+  border: 1px solid #f77979;
+  color: #666;
+  display: none;
+}
+
+a.btn_download {
+  background-color: white;
+  border: 1px solid #a9c5f3;
+  color: #666;
+}
+
+#fileList > section > span {
+  position: relative;
+}
+
+#fileList > section > span:hover > .delFile {
+  display: block;
+}
+
+#fileList > section {
+  margin-bottom: 10px;
+}
+
+#fileList .delFile {
+  position: absolute;
+  display: none;
+  right: -18px;
+  top: -20px;
+  color: white;
+  opacity: 1;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  background: black;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.btn_uploadfile {
+  padding: .2em .6em;
+  background-color: #eee;
+  color: #666;
+  margin: 6px 0px;
+  border-radius: 30px;
+}
+
+.theprogress {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #d6d6d6;
+}
+
+.progress {
+  background-color: #e2e2e2;
+  height: 17px;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: none;
+}
+
+.theprogress .progress-bar {
+  width: 0%;
+  background-color: #1486f8;
+}
+
+.fileSize {
+  display: inline-block;
+  width: 100px;
+}
+
+#files button {
+  margin-bottom: 10px;
+  display: none;
+}
+
+a.btn_lightblue,
+  /*歷史紗價*/
+a.btn_lightyellow,
+  /*歷史噴節點*/
+a.btn_lightpurple,
+  /*歷史單支數*/
+a.btn_lightgreen,
+  /*使用紗布種 */
+a.btn_lightpink
+
+  /*單價平均數 */
+{
+  color: #666;
+  border-radius: 30px;
+  padding: 3px 15px;
+  margin-bottom: 5px;
+}
+
+a.btn_lightblue {
+  background-color: #cfe2f3;
+}
+
+a.btn_lightblue:hover {
+  background-color: #cfe2f3;
+}
+
+a.btn_lightyellow {
+  background-color: #ffd966;
+}
+
+a.btn_lightyellow:hover {
+  background-color: #ffd966;
+}
+
+a.btn_lightpurple {
+  background-color: #d9d2e9;
+}
+
+a.btn_lightpurple:hover {
+  background-color: #d9d2e9;
+}
+
+a.btn_lightgreen {
+  background-color: #d9ead3;
+}
+
+a.btn_lightgreen:hover {
+  background-color: #d9ead3;
+}
+
+a.btn_lightpink {
+  background-color: #FFCCCC;
+}
+
+a.btn_lightpink:hover {
+  background-color: #FFCCCC;
+}
+
+a.btn_popbigbtn {
+  background-color: #fff;
+  border: 1px solid #3299fc;
+  color: #666;
+  display: block;
+  margin: 8px 0px;
+}
+
+a.btn_popbigbtn:hover,
+a.btn_popbigbtn:focus,
+a.btn_popbigbtn:active {
+  background-color: #cfe2f3;
+  border: 1px solid #a9c5f3;
+  color: #333;
+}
+
+.form-check-input {
+  border: 1px solid #666
+}
+
+.stylish-input-group .input-group-addon {
+  background: white !important;
+}
+
+.stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border-color: #ccc;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+/* ==================================================
+  7. checkbox
+================================================== */
+.checkbox,
+.radio {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 0px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input + .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked + .checkmark {
+  background-color: #3399ff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked + .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0px 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* ==================================================
+  8. total
+================================================== */
+.totalbox {
+  line-height: 35px;
+}
+
+/* ==================================================
+  9. 跳
+================================================== */
+.preventScrollig {
+  overflow: hidden;
+}
+
+.black_overlay {
+  /*	display: none; */
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2000;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=88);
+}
+
+.pop_content {
+  position: absolute;
+  /* bottom: -10%;  */
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2001;
+  overflow: auto;
+}
+
+.pop_content_s {
+  left: 35%;
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  .pop_content {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+.pop_bigbtnbox {
+  max-height: 320px;
+  overflow-y: scroll;
+}
+
+.pop_btn_nook {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding-left: 11px;
+  line-height: 33px;
+  border: none;
+}
+
+/* ==================================================
+  10. 資訊串流 message
+================================================== */
+.chatter {
+  padding-left: 10px;
+}
+
+.direct-chat-text {
+  border-radius: 5px;
+  position: relative;
+  padding: 5px 10px;
+  margin: 5px 0 0 6px;
+  color: #333;
+  width: 50%;
+  background: #ffffff;
+  border: 1px solid #3399ff;
+}
+
+@media (max-width: 767px) {
+  .direct-chat-text {
+    width: 100%;
+  }
+}
+
+.direct-chat-text:after,
+.direct-chat-text:before {
+  position: absolute;
+  right: 100%;
+  top: 15px;
+  border: solid transparent;
+  border-right-color: #3399ff;
+  content: ' ';
+  height: 0;
+  width: 0;
+  pointer-events: none
+}
+
+.direct-chat-text:after {
+  border-width: 5px;
+  margin-top: -5px
+}
+
+.direct-chat-text:before {
+  border-width: 6px;
+  margin-top: -6px
+}
+
+.right .direct-chat-text {
+  margin-right: 6px;
+  margin-left: 0;
+  background: #a4c1f4;
+  border: 1px solid #a4c1f4;
+  float: right;
+}
+
+.right .direct-chat-text:after,
+.right .direct-chat-text:before {
+  right: auto;
+  left: 100%;
+  border-right-color: transparent;
+  border-left-color: #a4c1f4;
+}
+
+.direct-chat-timestamp {
+  color: #666;
+}
+
+.direct-chat-msg {
+  margin-bottom: 20px;
+}
+
+.direct_img {
+  max-width: 60px;
+  border: 1px solid #fff;
+}
+
+a.direct_img:hover {
+  border: 1px solid #d6d8d8
+}
+
+.message_sendbox {
+  margin: 10px 0;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.direct-chat-messages {
+  box-shadow: 0px 0px 5px 1px rgba(223, 221, 221, .5) inset;
+}
+
+.sendbox_btn {
+  width: 40px;
+  display: inline-block;
+  font-size: 24px;
+  padding-left: 7px;
+}
+
+.sendbox_form {
+  width: calc(100% - 140px);
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9 !important;
+}
+
+.pop_content {
+  top: auto;
+  bottom: -10%;
+}
+
+#order > .pop_content {
+  bottom: 10%;
+}
+
+.pk-multiselect-wrap {
+  border-color: transparent;
+}
+
+.k-multiselect-wrap,
+.k-state-hover > .k-multiselect-wrap {
+  border-color: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.k-list-container {
+  border-color: #838483;
+}
+
+.k-multiselect.k-state-focused {
+  box-shadow: none;
+}
+
+.invalidInput {
+  border: 1px solid red !important;
+}
+
+.k-dropdown .k-state-default,
+.k-picker-wrap.k-state-default,
+.k-picker-wrap.k-state-default > .form-control,
+.k-datepicker .k-input,
+.k-picker-wrap.k-state-focused > .k-select,
+.k-picker-wrap.k-state-hover > .k-select,
+.k-picker-wrap.k-state-default > .k-select {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.k-multiselect-wrap .k-button {
+  background: #93cdf1;
+}
+
+.k-input[readonly] {
+  background: transparent;
+}
+
+.form-control {
+  background: #F8F8FF;
+}
+
+.k-nodata .add,
+.add {
+  border-radius: 25px;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background: #3399ff;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 2px;
+}
+
+.nodata {
+  font-size: 20px;
+  color: grey;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: #3399ff;
+}
+
+.btn-success:active:focus,
+.btn-success:active:hover {
+  border: none;
+}
+
+.white.focus,
+.white:focus,
+.white:hover {
+  color: white;
+}
+
+#form .errorMsg {
+  display: block;
+  margin-left: 14.5%;
+}
+
+.saveOrInsert {
+  width: 300px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background: #71ade9;
+  border-radius: 20px;
+  line-height: 2.5;
+}
+
+.errorNotification {
+  width: 300px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background: #ff5151;
+  border-radius: 20px;
+  line-height: 2.5;
+}
+
+.k-header.k-grid-toolbar {
+  border-color: #3399ff;
+}
+
+/* kendoGrid 預設底色 */
+.k-notification {
+  background: transparent;
+  border: transparent;
+}
+
+.fadeIn {
+  animation: fadeIn .6s 1;
+  -webkit-animation: fadeIn .6s 1;
+}
+
+.fadeIn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/createDone.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: zoomIn .8s .4s 1;
+  -webkit-animation: zoomIn .8s .4s 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1, 1)
+  }
+
+  80% {
+    transform: scale(1.5, 1.5)
+  }
+
+  100% {
+    transform: scale(1, 1)
+  }
+}
+
+.zoominTrans {
+  animation: zoominTrans .5s 1;
+  -webkit-animation: zoominTrans .5s 1;
+}
+
+@keyframes zoominTrans {
+  0% {
+    transform: scale(.1, .1)
+  }
+
+  80% {
+    transform: scale(1.1, 1.1)
+  }
+
+  100% {
+    transform: scale(1, 1)
+  }
+
+  /* 50% { transform: scale(.8,1.2) }
+  57% { transform: scale(1,1)}
+  64% { transform: scale(1,1)}
+  100% { transform: scale(1,1)} */
+}
+
+.checkMrak {
+  position: absolute;
+}
+
+.drawCheck {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 0;
+  animation: flow .4s .7s 1 ease-in;
+}
+
+@keyframes flow {
+  to {
+    stroke-dashoffset: -60;
+  }
+}
+
+.fa-star,
+.fa-star-o {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa.fa-star {
+  color: #f5e300;
+  display: none;
+}
+
+label.star {
+  border: 1px solid transparent;
+  width: auto;
+  padding: 1px;
+}
+
+label.star > input[type='checkbox'] {
+  display: none;
+}
+
+label.star > input[type='checkbox']:checked + span > .fa-star {
+  display: initial;
+}
+
+label.star > input[type='checkbox']:checked + span > .fa-star-o {
+  display: none;
+}
+
+label.star > input[type='checkbox']:disabled + span > .fa {
+  cursor: default;
+  opacity: .5;
+}
+
+.waitaSec {
+  cursor: wait !important;
+}
+
+.overlay {
+  overflow: hidden;
+}
+
+.scrollbar {
+  overflow: overlay;
+  overflow-x: hidden;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 9px;
+  display: none;
+}
+
+.scrollbar:hover::-webkit-scrollbar {
+  display: block;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 25px;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+.toBottom {
+  background: #3399ff;
+  color: white;
+  height: 27px;
+  width: 27px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1.2;
+  opacity: .5;
+  position: absolute;
+  top: 300px;
+  right: 15px;
+  z-index: 99;
+  display: none;
+}
+
+.backBtn {
+  background: #D75A4A;
+}
+
+.circleBtn {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0px;
+}
+
+.box_features [class*="fa-angle-double"] {
+  color: #8fbeec;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.invisibled .form-control {
+  opacity: 0;
+  z-index: -99;
+}
+
+/* MENU按鈕<假分頁> 本廠工作站/委外工作站/工單追蹤/織機監視/行事曆 */
+
+ol.monitormenu {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+.monitormenu > li {
+  list-style: none;
+  width: auto;
+  display: inline-block;
+  /* margin: 0 0.2em; */
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 11px 11px 0px 0px;
+  padding: 7px 15px;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0px solid transparent;
+
+}
+
+.monitormenu > .active {
+  background-color: #3399ff;
+}
+
+.monitormenu > li:hover {
+  background-color: #017dfa;
+}
+
+.monitormenu > li > a {
+  color: #fff;
+}
+
+.tabMenu {
+  margin: 0px;
+  min-height: 0px;
+}
+
+.tabMenu > .row {
+  margin: 0;
+}
+
+.tabMenu .col-md-12 {
+  padding: 0;
+}
+
+.fa-ban.color_pink,
+.fa-exclamation-circle.color_pink,
+.fa-check-circle.status {
+  font-size: 25px;
+}
+
+.fa-check-circle.status {
+  color: #4f5a68;
+}
+
+a.btn-statusmenu-1,
+.btn-statusmenu-1 {
+  background-color: #fff;
+  color: #333
+}
+
+/*白 待排*/
+a.btn-statusmenu-1:hover {
+  background-color: #E8E8E8
+}
+
+a.btn-statusmenu-2,
+.btn-statusmenu-2 {
+  background-color: #00b09b;
+  color: #fff
+}
+
+/*綠 進行*/
+a.btn-statusmenu-2:hover {
+  background-color: #009c8a
+}
+
+a.btn-statusmenu-3,
+.btn-statusmenu-3 {
+  background-color: #d9d9d9;
+  color: #333
+}
+
+/*灰 準備*/
+a.btn-statusmenu-3:hover {
+  background-color: #c3c3c3
+}
+
+a.btn-statusmenu-4,
+.btn-statusmenu-4 {
+  background-color: #cc1f03;
+  color: #fff
+}
+
+/*紅 異常*/
+a.btn-statusmenu-4:hover {
+  background-color: #ad1800
+}
+
+a.btn-statusmenu-5,
+.btn-statusmenu-5 {
+  background-color: #3399ff;
+  color: #fff
+}
+
+/*藍 緊急*/
+a.btn-statusmenu-5:hover {
+  background-color: #037af1
+}
+
+a.btn-statusmenu-6,
+.btn-statusmenu-6 {
+  background-color: #ffd966;
+  color: #333
+}
+
+/*黃 逾期*/
+a.btn-statusmenu-6:hover {
+  background-color: #f3be1d
+}
+
+a.btn-statusmenu-7,
+.btn-statusmenu-7 {
+  background-color: #bddefe;
+  color: #333
+}
+
+/*淡藍 板塊*/
+a.btn-statusmenu-7:hover {
+  background-color: #c9e1f9;
+  color: #333
+}
+
+a.btn-statusmenu-8,
+.btn-statusmenu-8 {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+/*深灰 完工*/
+a.btn-statusmenu-8:hover {
+  background-color: #454545;
+  color: #fff
+}
+
+a.btn-statusmenu-9,
+.btn-statusmenu-9 {
+  border: 1px solid #fff
+}
+
+/*框*/
+
+/*待排訂單*/
+a.btn-orderready {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+a.btn-orderready:hover {
+  background-color: #E8E8E8;
+}
+
+/*黃框籃框*/
+.border-y {
+  border: 3px solid #ffc000 !important;
+}
+
+.border-b {
+  border: 3px solid #3399ff !important;
+}
+
+/*六條row距離*/
+.status_stop_box {
+  padding: 0 10px;
+}
+
+.status_stop_box > .col-sm-3,
+.status_stop_box > .col-md-2,
+.status_stop_box > .col-sm-4,
+.status_stop_box > .col-md-3 {
+  padding: 5px;
+}
+
+/*六條 條*/
+.order_list {
+  overflow-y: scroll;
+  height: 425px;
+}
+
+.machine_list {
+  background-color: #EFEFEF;
+  padding: 5px;
+  border-radius: 0 0 7px 7px;
+}
+
+/*六條 表頭*/
+.status_title {
+  display: inline-block;
+  border-radius: 7px 7px 0 0;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+}
+
+.status_title_gray {
+  background-color: #333
+}
+
+/*待排*/
+.status_title_orange {
+  background-color: #f36f13
+}
+
+/*本廠*/
+.status_title_bluegreen {
+  background-color: #0c95bc
+}
+
+/*委外*/
+.img_stopn {
+  position: absolute;
+  top: -12px;
+  left: 0;
+}
+
+a.btn_more {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  display: inline-block;
+  background-color: #01aa1d;
+  color: #fff;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+.smallfont {
+  font-size: 9px;
+  text-align: center;
+}
+
+/*機器按鈕*/
+a.btn_machine {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  border-radius: 7px;
+  height: 35px;
+  line-height: 36px;
+
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.light_green {
+  width: 12px;
+  height: 12px;
+  border-radius: 30px;
+  background-color: #00a65a;
+  display: inline-block;
+}
+
+.light_red {
+  width: 12px;
+  height: 12px;
+  border-radius: 30px;
+  background-color: #E42A2D;
+  display: inline-block;
+}
+
+/*----本廠工作站1整經 monitor_stop1----*/
+.img_stopn_s {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 29px;
+}
+
+.stoptable {
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.stopicon {
+  width: 110px;
+  height: 70px;
+  line-height: 70px;
+  background: no-repeat;
+  display: inline-block;
+  text-align: right;
+  font-size: 22px;
+}
+
+.stop1icon {
+  background-image: url("/images/stop1icon.png")
+}
+
+.stop2icon {
+  background-image: url("/images/stop2icon.png")
+}
+
+.stop4icon {
+  background-image: url("/images/stop4icon.png")
+}
+
+.stop5icon {
+  background-image: url("/images/stop5icon.png")
+}
+
+/*----表格td背景色----*/
+/*１整經*/
+.td-db {
+  background-color: #87cefa;
+}
+
+/*淡藍*/
+.td-lb {
+  background-color: #00ffff;
+}
+
+/*亮藍*/
+.td-pp {
+  background-color: #d9d2e9;
+}
+
+/*淡紫*/
+.td-ly {
+  background-color: #fff2cc;
+}
+
+/*淡黃*/
+.td-dg {
+  background-color: #d9d9d9;
+}
+
+/*淡灰*/
+/*１工單*/
+.td-ly2 {
+  background-color: #feefbf;
+}
+
+/*鵝黃 工單*/
+.td-og {
+  background-color: #f2a224;
+}
+
+/*橙黃 客戶訂單布號訂單量*/
+/*行事曆*/
+.td-ob {
+  background-color: #7ac4fa;
+}
+
+/*藍 行事曆 整經*/
+.td-oy {
+  background-color: #fdee4c;
+}
+
+/*黃 行事曆 穿綜*/
+.td-lg {
+  background-color: #92e5a8;
+}
+
+/*淡綠 行事曆 織布*/
+.td-bp {
+  background-color: #bed1f7;
+}
+
+/*藍紫 行事曆 驗布*/
+.td-dp {
+  background-color: #dda89f;
+}
+
+/*藕粉 行事曆 出貨*/
+/*----本廠工作站2穿綜 monitor_stop2----*/
+/*----本廠工作站3織布 monitor_stop3----*/
+
+/*stop3選單列*/
+.stop3menu {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.stop3menu > .col-md-2 {
+  padding: 0;
+}
+
+.stop3menu > .col-md-4 {
+  padding: 0;
+}
+
+/*stop3選單按鈕*/
+a.btn_stop3menu {
+  display: inline-block;
+  border-radius: 7px;
+  height: 45px;
+  line-height: 45px;
+  width: 96%;
+  padding: 0 8px;
+  font-size: 13px;
+}
+
+/*stop3機器按鈕*/
+a.btn_machine_stop3 {
+  display: inline-block;
+  border-radius: 7px;
+  width: 96%;
+  padding: 0 8px;
+  font-size: 13px;
+  text-align: center;
+
+  position: relative;
+}
+
+a.btn_machine_bordr::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  z-index: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  background-color: #bddefe;
+  width: 6px;
+  border-radius: 50px;
+  height: 57px;
+}
+
+a.btn_machine_bordr::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  z-index: 0;
+  bottom: 0;
+  right: 0px;
+  background-color: #bddefe;
+  width: 6px;
+  border-radius: 50px;
+  height: 57px;
+}
+
+/*----本廠工作站3織布_設備數據 monitor_stop3_data----*/
+.stop3table_r > .table-bordered > thead > tr > th,
+.stop3table_r > .table-bordered > tbody > tr > th,
+.stop3table_r > .table-bordered > tfoot > tr > th,
+.stop3table_r > .table-bordered > thead > tr > td,
+.stop3table_r > .table-bordered > tbody > tr > td,
+.stop3table_r > .table-bordered > tfoot > tr > td {
+  border: 1px solid #a0d8fb;
+  font-size: 13px;
+}
+
+.stop3table_r > .table-bordered > tbody > tr > th,
+.stop3table_r > .table-bordered > tbody > tr > td {
+  text-align: left;
+}
+
+.stop3table_l > .tab-content > .active {
+  display: block;
+  border-top: 2px solid #00a65a;
+}
+
+.stop3table_l > .nav-pills > li.active > a,
+.stop3table_r > .nav-pills > li.active > a:hover,
+.stop3table_r > .nav-pills > li.active > a:focus {
+  border-top-color: #00a65a;
+}
+
+.stop3table_l > .nav-pills > li.active > a,
+.stop3table_r > .nav-pills > li.active > a:focus,
+.stop3table_r > .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #00a65a;
+}
+
+.stop3table_l > .nav-pills > li > a {
+  width: 105px;
+  text-align: center;
+}
+
+.stop3_title {
+  margin: 10px 0.2em 0;
+  text-align: center;
+  color: #fff;
+  border-radius: 11px 11px 0px 0px;
+  padding: 7px 15px;
+  display: inline-block;
+  width: 105px;
+}
+
+/*----本廠工作站3織布 monitor_stop4----*/
+@media (min-width: 992px) {
+  .outsourcing_box > .col-md-2 {
+    width: 20%
+  }
+}
+
+/*----工單追蹤 ordertracking_list----*/
+.ordertracking > .table-bordered > thead > tr > th,
+.ordertracking > .table-bordered > tbody > tr > th,
+.ordertracking > .table-bordered > tfoot > tr > th,
+.ordertracking > .table-bordered > thead > tr > td,
+.ordertracking > .table-bordered > tbody > tr > td,
+.ordertracking > .table-bordered > tfoot > tr > td {
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid #8c8c8c;
+}
+
+.ordertracking thead {
+  border-top: 1px solid #8c8c8c;
+}
+
+/*----行事曆_月 calendar_month----*/
+/*行事曆_月 上圓角按鈕*/
+a.btn_calendermenu,
+.btn_calendermenu {
+  list-style: none;
+  width: auto;
+  display: inline-block;
+  float: left;
+  margin: 0 0.2em;
+  text-align: center;
+  border-radius: 11px 11px 0px 0px;
+  padding: 5px 7px;
+  height: 36px;
+  line-height: 27px;
+}
+
+a.btn_calendermenu:hover {
+  opacity: 0.7;
+}
+
+/*行事曆 了機那些的 內框線 黑*/
+.btn_insetborder {
+  border-style: inset;
+  border: 1px solid #333;
+  border-bottom: 0;
+  margin-bottom: -1px !important;
+}
+
+a.btn_today {
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 1px 3px;
+}
+
+a.btn_today:hover {
+  background-color: #ccc
+}
+
+/*行事曆 黑框線*/
+.calendartable > .table-bordered > thead > tr > th,
+.calendartable > .table-bordered > tbody > tr > th,
+.calendartable > .table-bordered > tfoot > tr > th,
+.calendartable > .table-bordered > thead > tr > td,
+.calendartable > .table-bordered > tbody > tr > td,
+.calendartable > .table-bordered > tfoot > tr > td {
+  border-top: 1px solid #333 !important;
+  border: 1px solid #333;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+
+/*----行事曆_週 calendar_weekly ----*/
+/*----行事曆_天(工作站) calendar_date----*/
+.todayis {
+  color: #fff;
+  padding: 7px 15px;
+  background-color: #2d86ff;
+  display: inline-block;
+}
+
+.clddate {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+
+a.btn_more_s {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  line-height: 20px;
+  border: 1px solid #000;
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  float: right;
+  margin-bottom: 3px;
+}
+
+a.btn_more_s:hover {
+  background-color: #ccc
+}
+
+.smallfont {
+  font-size: 9px;
+  text-align: center;
+}
+
+/*行事曆機器按鈕*/
+a.btn_cldmachine {
+  text-align: center;
+  width: 100%;
+  display: block;
+  border-radius: 7px;
+  height: auto;
+  line-height: 23px;
+  clear: both;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #333;
+}
+
+a.btn_cldmachine:hover {
+  opacity: 0.7;
+}
+
+
+/*smb index*/
+.smbinx_table td {
+  height: 35px;
+}
+
+
+/*sidebar icon 左選單icon*/
+.sidebar_icon {
+  background-color: #000;
+  width: 19px;
+  height: 19px;
+  display: block;
+  -webkit-mask-size: cover !important;
+  mask-size: cover !important;
+}
+
+
+a.nav-link:hover > .sidebar_icon {
+  background-color: #afafaf;
+}
+
+a.nav-link:hover > span {
+  color: #afafaf
+}
+
+/*kendoWindow */
+.window {
+  margin: 10px;
+  padding-top: 30px;
+}
+
+.window .form-control {
+  text-align: left;
+  width: 75%;
+}
+
+/*.window span::before {*/
+/*  width: 0;*/
+/*  height: 100%;*/
+/*  display: inline-block;*/
+/*  position: relative;*/
+/*  vertical-align: middle;*/
+/*}*/
+
+.window .row > div {
+  padding: 0px;
+}
+
+.window .k-listbox {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 30px;
+}
+
+.window .k-item {
+  cursor: move;
+}
+
+.window .k-item:hover,
+.window .k-item.k-state-selected {
+  color: white;
+  background-color: #74b4f5;
+}
+
+.window .k-button {
+  background-color: #3399ff;
+  color: white;
+}
+
+.window .k-button.k-state-disabled {
+  background-color: #74b0ec;
+}
+
+/*grid 進階搜尋*/
+.form-group .input-group-addon {
+  border-radius: 4px 0px 0px 4px;
+  border-color: #3399ff;
+}
+
+/*.input-group .form-control {*/
+/*  border-radius: 0px 4px 4px 0px;*/
+/*}*/
+
+.dropdown-menu button {
+  /*padding: 6px 12px;*/
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.input-group-btn span:before {
+  width: auto;
+  vertical-align: bottom;
+}
+
+.search-filter {
+  background-color: unset;
+  border-color: #3399ff;
+}
+
+.search-row .input-group {
+  display: table;
+}
+
+.search-row .input-group nav {
+  width: 14%;
+  display: table-cell;
+}
+
+.search-row .input-group .clear {
+  vertical-align: middle;
+  width: unset;
+  height: 100%;
+  text-align: center;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #3399ff;
+  cursor: pointer;
+  background: #F8F8FF;
+}
+
+.search-row .input-group-btn > .btn {
+  position: relative;
+  border-radius: 4px 0px 0px 4px;
+  margin-right: -1px;
+}
+
+.search-row .input-group-btn .filter-text {
+  display: inline-block;
+  min-width: 60px;
+}
+
+.search-row .input-group .form-control {
+  display: table-cell;
+  width: 100%;
+  border-width: 1px 0px 1px 1px;
+  border-radius: 0px;
+}
+
+.search-row .input-group .date {
+  border-width: 1px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.dropdown-menu input {
+  border: none;
+  padding: 6px 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-menu input:hover {
+  background-color: #3399ff;
+  color: #ffffff;
+}
+
+.dropdown-menu .active {
+  background-color: #00c0ef;
+  color: #ffffff;
+}
+
+/*選日期搜尋框*/
+.pickdate {
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px #3399ff solid;
+  background-color: #f4f4f4;
+  color: #999;
+}
+
+/*測選單icon*/
+/* 營業訂單*/
+.icon_wf01 {
+  -webkit-mask: url("/images/icon_workflow/icon.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/icon.svg) no-repeat 50% 50%;
+}
+
+/* 產品管理*/
+.icon_wf02 {
+  -webkit-mask: url(/images/icon_workflow/fabric.svg) no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/fabric.svg) no-repeat 50% 50%;
+}
+
+/* 採購管理*/
+.icon_wf03 {
+  -webkit-mask: url(/images/icon_workflow/thread-ball.svg) no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/thread-ball.svg) no-repeat 50% 50%;
+}
+
+/* 委外代織*/
+.icon_wf04 {
+  -webkit-mask: url(/images/icon_workflow/folded-text-document.svg) no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/folded-text-document.svg) no-repeat 50% 50%;
+}
+
+/* 樣布管理*/
+.icon_wf05 {
+  -webkit-mask: url(/images/icon_workflow/blueprint.svg) no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/blueprint.svg) no-repeat 50% 50%;
+}
+
+/* 生產製令*/
+.icon_wf06 {
+  -webkit-mask: url("/images/icon_workflow/file.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/file.svg) no-repeat 50% 50%;
+}
+
+/* 交期模擬演算*/
+.icon_wf07 {
+  -webkit-mask: url("/images/icon_workflow/clock.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/clock.svg) no-repeat 50% 50%;
+}
+
+/* 生產排程*/
+.icon_wf08 {
+  -webkit-mask: url("/images/icon_workflow/calendar.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/calendar.svg) no-repeat 50% 50%;
+}
+
+/* 整經作業*/
+.icon_wf09 {
+  -webkit-mask: url("/images/icon_workflow/thread_1.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/thread_1.svg) no-repeat 50% 50%;
+}
+
+/* 穿綜作業*/
+.icon_wf10 {
+  -webkit-mask: url("/images/icon_workflow/thread.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/thread.svg) no-repeat 50% 50%;
+}
+
+/* 織布作業*/
+.icon_wf11 {
+  -webkit-mask: url("/images/icon_workflow/manufacture.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/manufacture.svg) no-repeat 50% 50%;
+}
+
+/* 驗布作業*/
+.icon_wf12 {
+  -webkit-mask: url("/images/icon_workflow/patch.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/patch.svg) no-repeat 50% 50%;
+}
+
+/* 出貨作業*/
+.icon_wf13 {
+  -webkit-mask: url("/images/icon_workflow/product.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/product.svg) no-repeat 50% 50%;
+}
+
+/* 現場管理*/
+.icon_wf14 {
+  -webkit-mask: url("/images/icon_workflow/conversation.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/conversation.svg) no-repeat 50% 50%;
+}
+
+/* 原料管理*/
+.icon_wf15 {
+  -webkit-mask: url("/images/icon_workflow/thread-ball.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/thread-ball.svg) no-repeat 50% 50%;
+}
+
+/* 盤頭管理*/
+.icon_wf16 {
+  -webkit-mask: url("/images/icon_workflow/axis.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/axis.svg) no-repeat 50% 50%;
+}
+
+/* 鋼筘管理*/
+.icon_wf17 {
+  -webkit-mask: url("/images/icon_workflow/rulers.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/rulers.svg) no-repeat 50% 50%;
+}
+
+/* 設備管理*/
+.icon_wf18 {
+  -webkit-mask: url("/images/icon_workflow/process.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/process.svg) no-repeat 50% 50%;
+}
+
+/* 現場監控*/
+.icon_wf19 {
+  -webkit-mask: url("/images/icon_workflow/eye.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/eye.svg) no-repeat 50% 50%;
+}
+
+/* 品質管理*/
+.icon_wf20 {
+  -webkit-mask: url("/images/icon_workflow/test.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/test.svg) no-repeat 50% 50%;
+}
+
+/* 成品管理*/
+.icon_wf21 {
+  -webkit-mask: url("/images/icon_workflow/fabric_1.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/fabric_1.svg) no-repeat 50% 50%;
+}
+
+/* 出貨管理*/
+.icon_wf22 {
+  -webkit-mask: url("/images/icon_workflow/product.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/product.svg) no-repeat 50% 50%;
+}
+
+/*系統選項*/
+.icon_wf23 {
+  -webkit-mask: url("/images/icon_workflow/web-settings.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/web-settings.svg) no-repeat 50% 50%;
+}
+
+/*個人資料*/
+.icon_wf24 {
+  -webkit-mask: url("/images/icon_workflow/user.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/user.svg) no-repeat 50% 50%;
+}
+
+/*帳號權限*/
+.icon_wf25 {
+  -webkit-mask: url("/images/icon_workflow/lock.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/lock.svg) no-repeat 50% 50%;
+}
+
+/*作業流程*/
+.icon_wf26 {
+  -webkit-mask: url("/images/icon_workflow/flow-chart.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/flow-chart.svg) no-repeat 50% 50%;
+}
+
+/*廠商管理*/
+.icon_wf27 {
+  -webkit-mask: url("/images/icon_workflow/factory.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/factory.svg) no-repeat 50% 50%;
+}
+
+/*統計資料*/
+.icon_wf28 {
+  -webkit-mask: url("/images/icon_workflow/analytics.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/analytics.svg) no-repeat 50% 50%;
+}
+
+/*業務管理*/
+.icon_wf29 {
+  -webkit-mask: url("/images/icon_workflow/suitcase.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/suitcase.svg) no-repeat 50% 50%;
+}
+
+/*電子看板*/
+.icon_wf30 {
+  -webkit-mask: url("/images/icon_workflow/tablet.svg") no-repeat 50% 50%;
+  mask: url(/images/icon_workflow/tablet.svg) no-repeat 50% 50%;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}

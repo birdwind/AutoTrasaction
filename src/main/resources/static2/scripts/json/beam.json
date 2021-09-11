@@ -1,0 +1,129 @@
+{
+  "status": true,
+  "httpStatus": 200,
+  "requestUrl": "",
+  "method": "POST",
+  "resourceName": null,
+  "timeStamp": "2019/10/30 11:08:25",
+  "response": {
+    "header": {
+      "uuid": {
+        "type": "hidden",
+        "required": false
+      },
+      "No": {
+        "title": "詢價單號 ",
+        "type": "label",
+        "required": false
+      },
+      "date": {
+        "title": "詢價日期",
+        "type": "label",
+        "required": false
+      },
+      "cate": {
+        "title": "詢價種類",
+        "type": "label",
+        "required": false
+      },
+      "co": {
+        "title": "詢價廠商",
+        "type": "label",
+        "required": false
+      },
+      "cloth": {
+        "title": "詢價布種",
+        "type": "label",
+        "required": false
+      },
+      "status": {
+        "title": "詢價狀態",
+        "type": "label",
+        "required": false
+      },
+      "stream": {
+        "title": "資料串流",
+        "type": "label",
+        "required": false
+      },
+      "expire": {
+        "title": "連結失效日",
+        "type": "label",
+        "required": false
+      }
+    },
+    "contents": [
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789a",
+        "No": "P20190501-1",
+        "date": "2019/4/29",
+        "cate": "盤頭",
+        "co": "三越",
+        "cloth": "ws-1234",
+        "status": 1,
+        "stream": "",
+        "expire": "2019/4/29 13:00"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789b",
+        "No": "P20190501-1",
+        "date": "2019/4/29",
+        "cate": "盤頭",
+        "co": "三越",
+        "cloth": "ws-1234",
+        "status": 0,
+        "stream": "",
+        "expire": "2019/4/29 13:00"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789c",
+        "No": "P20190501-1",
+        "date": "2019/4/29",
+        "cate": "代織",
+        "co": "三越",
+        "cloth": "ws-1234",
+        "status": 0,
+        "stream": "",
+        "expire": "2019/4/29 13:00"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789d",
+        "No": "P20190501-1",
+        "date": "2019/4/29",
+        "cate": "代織",
+        "co": "三越",
+        "cloth": "ws-1234",
+        "status": 1,
+        "stream": "",
+        "expire": "2019/4/29 13:00"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789e",
+        "No": "P20190501-1",
+        "date": "2019/4/29",
+        "cate": "盤頭",
+        "co": "三越",
+        "cloth": "ws-1234",
+        "status": 1,
+        "stream": "",
+        "expire": "2019/4/29 13:00"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789w",
+        "No": "P20190501-1",
+        "date": "2019/4/29",
+        "cate": "盤頭",
+        "co": "三越",
+        "cloth": "ws-1234",
+        "status": 1,
+        "stream": "",
+        "expire": "2019/4/29 13:00"
+      }
+    ],
+    "totalElements": 6,
+    "size": 10,
+    "numberOfElements": 2,
+    "currentPage": 0,
+    "totalPages": 1
+  }
+}

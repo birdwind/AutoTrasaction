@@ -1,0 +1,92 @@
+{
+  "status": true,
+  "httpStatus": 200,
+  "requestUrl": "",
+  "method": "POST",
+  "resourceName": null,
+  "timeStamp": "2019/10/30 11:08:25",
+  "response": {
+    "header": {
+      "uuid": {
+        "type": "hidden",
+        "required": false
+      },
+      "No": {
+        "title": "工單編號 ",
+        "type": "label",
+        "required": false
+      },
+      "orderNo": {
+        "title": "訂單號碼 ",
+        "type": "label",
+        "required": false
+      },
+      "clothNo": {
+        "title": "布號",
+        "type": "label",
+        "required": false
+      },
+      "dueDate": {
+        "title": "交期/數量",
+        "type": "label",
+        "required": false
+      },
+      "purchaseNo": {
+        "title": "紗採購編號",
+        "type": "label",
+        "required": false
+      }
+    },
+    "contents": [
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789a",
+        "No": "mo-201909011-32",
+        "orderNo": "ord-20190911-1",
+        "clothNo": "ws-1234",
+        "dueDate": "2019/10/14 (200Y)",
+        "purchaseNo": "3pch-20190902-1"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789b",
+        "No": "mo-201909011-33",
+        "orderNo": "ord-20190911-1",
+        "clothNo": "ws-1234",
+        "dueDate": "2019/10/14 (200Y)",
+        "purchaseNo": ""
+      },{
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789c",
+        "No": "mo-201909011-34",
+        "orderNo": "ord-20190911-1",
+        "clothNo": "ws-1234",
+        "dueDate": "2019/10/14 (200Y)",
+        "purchaseNo": "3pch-20190902-2"
+      },{
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789d",
+        "No": "mo-201909011-35",
+        "orderNo": "ord-20190911-1",
+        "clothNo": "ws-1234",
+        "dueDate": "2019/10/14 (200Y)",
+        "purchaseNo": ""
+      },{
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789f",
+        "No": "mo-201909011-32",
+        "orderNo": "ord-20190911-1",
+        "clothNo": "ws-1234",
+        "dueDate": "2019/10/14 (200Y)",
+        "purchaseNo": "3pch-20190902-3"
+      },{
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789r",
+        "No": "mo-201909011-12",
+        "orderNo": "ord-20190911-1",
+        "clothNo": "ws-1234",
+        "dueDate": "2019/10/14 (1500Y)",
+        "purchaseNo": "3pch-20190902-4"
+      }
+    ],
+    "totalElements": 6,
+    "size": 10,
+    "numberOfElements": 2,
+    "currentPage": 0,
+    "totalPages": 1
+  }
+}

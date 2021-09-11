@@ -1,0 +1,151 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "smb",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "smbPerShiftUuid": {
+                "title": "smb.smbPerMinUuid",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "shiftArrangementUuid": {
+                "title": "排班班別",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "averageManufactureEfficiency": {
+                "title": "平均生產效率",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "picknoaPerShift": {
+                "title": "累計打緯數",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "warpstopPerShift": {
+                "title": "累積經停",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "weftstopPerShift": {
+                "title": "累積緯停",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "lenostopPerShift": {
+                "title": "累積絞邊紗停",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "totalstopPerShift": {
+                "title": "累積機故",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "averageRpmPerShift": {
+                "title": "平均轉速",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "clothbeamPerShift": {
+                "title": "累積落布次數",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "smbPerShiftUuid": "df0e56bd-6a0c-41c8-9a05-ee53993bbacc",
+                "shiftArrangementUuid": "37107bd7-423f-441f-b5d1-2335296da63f",
+                "averageManufactureEfficiency": "98.1",
+                "picknoaPerShift": "231",
+                "warpstopPerShift": "12",
+                "weftstopPerShift": "12",
+                "lenostopPerShift": "12",
+                "totalstopPerShift": "12",
+                "averageRpmPerShift": "459",
+                "clothbeamPerShift": "3"
+            },
+            {
+                "smbPerShiftUuid": "df0e56bd-6a0c-41c8-9a05-ee53993bbacc",
+                "shiftArrangementUuid": "067a46f0-0b28-4c76-9bc7-cbab0d1d1b1e",
+                "averageManufactureEfficiency": "98.2",
+                "picknoaPerShift": "232",
+                "warpstopPerShift": "12",
+                "weftstopPerShift": "12",
+                "lenostopPerShift": "12",
+                "totalstopPerShift": "12",
+                "averageRpmPerShift": "459",
+                "clothbeamPerShift": "3"
+            },
+            {
+                "smbPerShiftUuid": "df0e56bd-6a0c-41c8-9a05-ee53993bbacc",
+                "shiftArrangementUuid": "0ff3a111-2966-42b6-912d-b904a5bf8ddf",
+                "averageManufactureEfficiency": "98.3",
+                "picknoaPerShift": "233",
+                "warpstopPerShift": "12",
+                "weftstopPerShift": "12",
+                "lenostopPerShift": "12",
+                "totalstopPerShift": "12",
+                "averageRpmPerShift": "459",
+                "clothbeamPerShift": "3"
+            },
+            {
+                "smbPerShiftUuid": "606a785c-6311-4e9e-be57-d37e341d211b",
+                "shiftArrangementUuid": "37107bd7-423f-441f-b5d1-2335296da63f",
+                "averageManufactureEfficiency": "97.0",
+                "picknoaPerShift": "200",
+                "warpstopPerShift": "12",
+                "weftstopPerShift": "12",
+                "lenostopPerShift": "12",
+                "totalstopPerShift": "12",
+                "averageRpmPerShift": "459",
+                "clothbeamPerShift": "3"
+            },
+            {
+                "smbPerShiftUuid": "606a785c-6311-4e9e-be57-d37e341d211b",
+                "shiftArrangementUuid": "067a46f0-0b28-4c76-9bc7-cbab0d1d1b1e",
+                "averageManufactureEfficiency": "97.1",
+                "picknoaPerShift": "201",
+                "warpstopPerShift": "12",
+                "weftstopPerShift": "12",
+                "lenostopPerShift": "12",
+                "totalstopPerShift": "12",
+                "averageRpmPerShift": "459",
+                "clothbeamPerShift": "3"
+            },
+            {
+                "smbPerShiftUuid": "606a785c-6311-4e9e-be57-d37e341d211b",
+                "shiftArrangementUuid": "0ff3a111-2966-42b6-912d-b904a5bf8ddf",
+                "averageManufactureEfficiency": "97.2",
+                "picknoaPerShift": "202",
+                "warpstopPerShift": "12",
+                "weftstopPerShift": "12",
+                "lenostopPerShift": "12",
+                "totalstopPerShift": "12",
+                "averageRpmPerShift": "459",
+                "clothbeamPerShift": "3"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

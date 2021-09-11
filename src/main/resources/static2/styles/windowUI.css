@@ -1,0 +1,215 @@
+table .form-control {
+  display: inline-block;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9 !important;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: white !important;
+}
+
+.responseData {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  display: inline;
+}
+
+.responseData>li {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.responseData>li:nth-child(even) {
+  margin-right: 20px;
+}
+
+.k-window {
+  top: 90px;
+  padding: 0px !important;
+  border-radius: 20px;
+}
+
+.k-window .close {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  color: white;
+  opacity: 1;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  line-height: 15px;
+  background: black;
+  border-radius: 50%;
+}
+
+.k-window-titlebar.k-header {
+  display: none;
+}
+
+.k-window-content {
+  margin: 30px 15px 0px 0px;
+  padding-top: 0px;
+  height: 90%;
+}
+
+#fw_confirmBox {
+  margin: 10px;
+  padding-top: 30px;
+}
+
+#fw_confirmBox .row>div {
+  padding: 0px;
+  text-align: center;
+}
+
+
+.deleteIcon {
+  position: relative;
+}
+
+.deleteIcon .fa-file-text-o {
+  position: relative;
+  font-size: 70px;
+}
+
+.throwIn {
+  animation: throwIn 3s 1 .2s;
+  -webkit-animation: throwIn 3s 1 .2s;
+}
+
+@keyframes throwIn {
+  0% {
+    transform: scale(1, 1);
+    top: -5px;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(.4, .4);
+    top: 150px;
+    opacity: 0;
+  }
+}
+
+.deleteIcon .fa-trash {
+  display: none;
+  font-size: 90px;
+  position: relative;
+  top: 50px;
+}
+
+.deleteIcon .fa-times {
+  position: absolute;
+  color: #D75A4A;
+  font-size: 50px;
+  right: -10px;
+  top: 20px;
+}
+
+#fw_confirmBox .invisible {
+  display: none;
+}
+
+#caseClosed .form-control {
+  width: 75%;
+}
+
+#caseClosed .form-control.k-widget {
+  width: 77%;
+}
+
+#caseClosed .form-control:not(.k-widget) {
+  padding: 0 0 0 12px;
+}
+
+#caseClosed .row>div {
+  padding: 0px
+}
+
+#caseClosed .box_inputdata nav {
+  width: 20%;
+}
+
+.col-md-12.box_inputdata {
+  width: 90%;
+}
+
+#caseClosed .errorMsg {
+  display: block;
+  margin-left: 21%;
+}
+
+.satisfy {
+  list-style: none;
+  display: inline;
+}
+
+.satisfy>li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.emoji {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.emojiCheck {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-image: url("/images/check.png");
+  height: 50px;
+  height: 15px;
+  opacity: 0;
+  margin-bottom: 5px;
+}
+
+.satisfy input[type='radio'] {
+  display: none;
+}
+
+.satisfy input[type='radio']:checked+.emojiCheck {
+  opacity: 1;
+}
+
+.satisfy>li:nth-child(1) .emoji {
+  background-image: url("/images/in-crying.png");
+}
+
+.satisfy>li:nth-child(2) .emoji {
+  background-image: url("/images/in-happy.png");
+}
+
+.satisfy>li:nth-child(3) .emoji {
+  background-image: url("/images/in-love.png");
+}
+
+.saveIcon .fa-exclamation-triangle {
+  position: relative;
+  color: #D75A4A;
+  font-size: 70px;
+}
+
+.saveIcon .fa-times {
+  position: relative;
+  color: #D75A4A;
+  font-size: 70px;
+}
+
+.window{
+  margin: 30px 15px 30px 15px;
+  padding-top: 0px;
+}

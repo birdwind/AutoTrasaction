@@ -1,0 +1,192 @@
+/***********template************/
+body,
+.skin-green-light .sidebar-menu > li > .treeview-menu {
+  background-color: #f9fafc;
+}
+
+.skin-green-light .main-sidebar {
+  border-right-color: #f9fafc;
+}
+
+.snbdcLogo {
+  color: #f6f6f6;
+}
+
+.language-content-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.language-content-btn:hover {
+  background-color: white;
+  color: #d9534f;
+  border-color: #d9534f;
+}
+
+.identity-content-btn {
+  background-color: #b565a7;
+  color: white;
+}
+
+.identity-content-btn:hover {
+  background-color: white;
+  color: #b565a7;
+  border-color: #b565a7;
+}
+
+input:required {
+  border-color: #ff8d1c;
+}
+
+/*******************************/
+/*************member************/
+.form-control[disabled],
+.form-control.disabled {
+  background-color: #ebebe0;
+}
+
+.breadcrumbTail {
+  background-color: #009900;
+}
+
+.search .fa-search {
+  color: #439bc6;
+}
+
+.myBadge,
+.btn:focus {
+  color: #439bc6;
+}
+
+/*.isMember1 {*/
+/*  background-color: #337ab7;*/
+/*  border-color: #2e6da4;*/
+/*}*/
+
+/*.isMember0 {*/
+/*  background-color: #f0ad4e;*/
+/*  border-color: #eea236;*/
+/*}*/
+
+.isMember1 {
+  color: #337ab7;
+}
+
+.isMember0 {
+  color: #f0ad4e;
+}
+
+.isPending1 {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.isPending0 {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.isPending_1 {
+  background-color: #c2c2a3;
+  border-color: #b8b894;
+}
+
+.isStatus1 {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.isStatus9 {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.isStatus0 {
+  background-color: #c2c2a3;
+  border-color: #b8b894;
+}
+
+.btn-key {
+  background-color: white;
+  color: #ff6d70;
+  border-color: #ff6d70;
+}
+
+.btn-key:hover {
+  background-color: #ff6d70;
+  color: white;
+}
+
+.btn-edit {
+  background-color: white;
+  color: #5f4b8b;
+  border-color: #5f4b8b;
+}
+
+.btn-edit:hover {
+  background-color: #5f4b8b;
+  color: white;
+}
+
+.k-widget > span.k-invalid,
+input.k-invalid {
+  border: 2px solid red !important;
+}
+
+.k-tooltip-validation .k-callout-n {
+  border-bottom-color: red;
+}
+
+.k-widget.k-tooltip-validation {
+  border-color: red;
+  background-color: red;
+  color: #fff;
+}
+
+/*******************************/
+/**********memberGroup**********/
+
+.btn-select {
+  background-color: white;
+  color: #e3a21a;
+  border-color: #e3a21a;
+}
+
+.btn-select:hover {
+  background-color: #e3a21a;
+  color: white;
+}
+
+.k-dropdown .k-state-default {
+  background-color: white;
+}
+
+.k-grid-edit {
+  background-color: white;
+  color: #5f4b8b;
+  border-color: #5f4b8b;
+}
+
+.k-grid-edit:focus {
+  color: white;
+}
+
+.k-grid-edit:hover {
+  background-color: #5f4b8b;
+  color: white;
+  border-color: #5f4b8b;
+}
+
+.k-grid-update {
+  background-color: #00a65a;
+}
+
+/*******************************/
+.k-item.k-state-hover:hover {
+  color: white;
+  background: #00a65a;
+}
+
+.k-checkbox:checked + .k-checkbox-label:before {
+  color: white;
+}

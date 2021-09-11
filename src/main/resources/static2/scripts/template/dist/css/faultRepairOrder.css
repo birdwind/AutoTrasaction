@@ -1,0 +1,451 @@
+.k-header.k-grid-toolbar {
+  background-color: #33a455 !important;
+  border-color: #3fc968
+}
+
+#add {
+  cursor: pointer;
+  color: #00a65a;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 7px;
+}
+
+.fa-pencil-square-o {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+  margin-left: 12px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.main-header .logo {
+  font-size: 16px;
+}
+.treeview-menu > li > a {
+  padding: 8px 5px 8px 15px;
+}
+
+.user-panel {
+  padding: 10px 10px 20px 10px;
+}
+
+.k-checkbox-label:active:before {
+  border-color: #00a65a !important;
+}
+
+.k-grid-header th.k-header {
+  text-align: center;
+  padding: .786em .6em;
+}
+
+.k-grid-content {
+  text-align: center;
+}
+
+.k-grid input.k-checkbox + label.k-checkbox-label {
+  margin-right: 14px;
+  /* margin-top: 5px; */
+}
+
+.k-pager-numbers .k-state-selected {
+  border-color: #00a65a transparent transparent;
+  color: #00a65a;
+}
+
+.k-checkbox:checked + .k-checkbox-label:before {
+  background-color: #00a65a;
+  border-color: #00a65a;
+}
+
+.k-checkbox:checked + .k-checkbox-label:before, .k-checkbox:checked + .k-checkbox-label:hover:before, .k-checkbox:checked:hover + .k-checkbox-label:before {
+  border-color: #00a65a;
+}
+
+.k-grid tr:hover {
+  background-color: #f8f8f8;
+}
+
+.k-grid tr.k-state-selected:hover td {
+  background-color: #00a65a;
+  border-color: #00a65a;
+  color: white;
+}
+
+.k-grid tr.k-state-selected {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.k-grid tr.k-state-selected > td {
+  border-color: #f2f2f2;
+}
+
+.k-checkbox + .k-checkbox-label:active:after, .k-checkbox:active + .k-checkbox-label:after {
+  box-shadow: 0 0 0 0px transparent !important;
+  background: transparent !important;
+}
+
+.k-checkbox:focus + .k-checkbox-label:after {
+  box-shadow: 0 0 0 0px transparent !important;
+  background: transparent !important;
+}
+
+.number_a {
+  color: #00a65a;
+}
+
+.number_a:hover {
+  color: #85d6b2;
+}
+
+.k-grid tr.k-state-selected:hover td a {
+  color: white;
+}
+
+.k-grid tr.k-state-selected:hover td a:hover {
+  color: #85d6b2;
+}
+
+.row > div {
+  padding: 20px 30px;
+  padding-bottom: 10px;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #00a65a;
+  color: white;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border-color: #00a65a !important;
+}
+
+.form-control:focus {
+  border-color: #00a65a;
+  box-shadow: none;
+}
+
+.form-control[disabled] {
+  background-color: #fafafa;
+  border-color: transparent;
+}
+
+
+label {
+  display: block;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+[type="radio"], [type="checkbox"] {
+  display: none;
+}
+
+[type="checkbox"] + div, [type="radio"] + div {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background: url(/plugins/iCheck/flat/green.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+[type="radio"] + div {
+  background-position: -88px 0;
+}
+
+[type="radio"]:checked + div {
+  background-position: -110px 0;
+}
+
+[type="radio"]:disabled + div {
+  background-position: -132px 0;
+  cursor: default;
+}
+
+[type="radio"]:checked:disabled + div {
+  background-position: -154px 0;
+}
+
+[type="checkbox"]:checked + div {
+  background-position: -22px 0;
+}
+
+[type="checkbox"]:disabled + div {
+  background-position: -44px 0;
+  cursor: default;
+}
+
+[type="checkbox"]:checked:disabled + div {
+  background-position: -66px 0;
+}
+
+.repairList {
+  box-shadow: 0px 0px 10px 5px #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#mCategoryList, #componentList {
+  padding-left: 0;
+}
+
+.item {
+  padding-left: 0;
+}
+
+#mCategoryList > li > ul {
+  list-style-type: none;
+}
+
+#mCategoryList h4, #componentList h4 {
+  font-weight: 600;
+}
+
+.listContainer {
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.listContainer [type='text'] {
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.listContainer > ul {
+  overflow-y: auto;
+  height: 400px;
+}
+
+.listContainer li {
+  margin: 5px;
+}
+
+.listContainer span {
+  padding-left: 5px;
+  display: block;
+}
+
+/* width */
+.listContainer > ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.listContainer > ul::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 25px;
+}
+
+/* Handle */
+.listContainer > ul::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.listContainer > ul::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+#componentList > li {
+  display: none;
+}
+
+textarea {
+  resize: none;
+  width: 100% !important;
+  height: 70px !important;
+}
+
+#selectedMachine > .row > div, #selectedMachine > .row > div li {
+  position: relative;
+}
+
+#selectedMachine > .row {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.del {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: #00a65a;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+  right: -5px;
+  top: -5px;
+}
+
+.del.item {
+  height: 20px;
+  width: 20px;
+  background: #F5A04B;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  right: 0px;
+  top: 10px;
+}
+
+#selectedMachine > .row > div:hover > .del.main,
+#selectedMachine > .row > div li:hover > .del.item {
+  display: block;
+}
+
+.search {
+  position: relative;
+  display: inline !important;
+  padding-left: 0 !important;
+}
+
+.search input {
+  height: 30px;
+  display: inline-block;
+}
+
+.search nav {
+  position: absolute;
+  font-size: 20px;
+  color: grey;
+  right: 12px;
+  top: -4px;
+  cursor: pointer;
+  display: none;
+}
+
+.fr-progress {
+  counter-reset: step;
+  padding-left: 0;
+}
+
+.fr-progress li {
+  list-style-type: none;
+  float: left;
+  width: 16%;
+  position: relative;
+  text-align: center;
+}
+
+.fr-progress li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+.fr-progress li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  top: 15px;
+  left: -50%;
+  z-index: 1;
+}
+
+.fr-progress li:first-child:after {
+  content: none;
+}
+
+.fr-progress li.active {
+  color: #00a65a;
+}
+
+.fr-progress li.active:before {
+  border-color: #00a65a;
+}
+
+.fr-progress li.active + li:after {
+  background-color: #00a65a;
+}
+
+.num {
+  width: 60px;
+  height: 28px !important;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.repairList h3 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.repairList ul {
+  padding-left: 0;
+}
+
+.repairList ul li label {
+  font-size: 18px;
+}
+
+.numPanel > * {
+  display: inline-block;
+  margin: 8px 0;
+}
+
+.numPanel span {
+  margin-right: 5px;
+}
+
+.btn {
+  width: 28px;
+  height: 28px;
+  padding: 1px 5px 2px;
+}
+
+.form-width {
+  padding: 0 10px;
+}
+
+.form-group div {
+  margin-bottom: 5px;
+
+}
+		
+

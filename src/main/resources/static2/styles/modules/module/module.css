@@ -1,0 +1,66 @@
+/*  css for new template */
+.required:after {
+  content: "*";
+  color: red;
+  position: absolute;
+}
+
+#delete {
+  display: none;
+}
+
+.btn-outline {
+  background-color: rgba(76, 174, 76, 0.2);
+  color: green;
+  transition: all 0.25s;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.input-group .form-control {
+  border-radius: 4px !important;
+}
+
+.k-combobox,
+.k-combobox .k-input,
+.k-datepicker,
+.k-datepicker .k-input,
+.k-datetimepicker,
+.k-datetimepicker .k-input,
+.k-timepicker,
+.k-timepicker .k-input {
+  width: 100%;
+}
+
+.errorMessage {
+  display: none;
+  color: red;
+  margin-top: 5px;
+}
+
+.invalidInput {
+  border: red solid 1.5px;
+}
+
+.color-green {
+  color: gren;
+}
+
+.color-red {
+  color: red;
+}
+
+@media (min-width: 1200px) {
+  .form-horizontal .control-label {
+    padding-left: 30px;
+  }
+}
+
+/* order css */
+#orderStatus {
+  width: 100%;
+}

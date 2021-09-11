@@ -1,0 +1,95 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "smb",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "smbPerDayUuid": {
+                "title": "smb.smbPerDayUuid",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "averageManufactureEfficiency": {
+                "title": "平均生產效率",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "picknoaPerShift": {
+                "title": "累計打緯數",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "warpstopPerShift": {
+                "title": "累積經停",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "weftstopPerShift": {
+                "title": "累積緯停",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "lenostopPerShift": {
+                "title": "累積絞邊紗停",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "totalstopPerShift": {
+                "title": "累積機故",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "averageRpmPerShift": {
+                "title": "平均轉速",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "clothbeamPerShift": {
+                "title": "累積落布次數",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "smbPerDayUuid": "47b85f48-53b7-4a20-8151-862e6cd0db76",
+                "averageManufactureEfficiency": "99.1",
+                "picknoaPerShift": "293",
+                "warpstopPerShift": "11",
+                "weftstopPerShift": "11",
+                "lenostopPerShift": "11",
+                "totalstopPerShift": "11",
+                "averageRpmPerShift": "460",
+                "clothbeamPerShift": "2"
+            },
+            {
+                "smbPerDayUuid": "7e902ff9-b9fe-4b8f-b4bf-c60599d1cc59",
+                "averageManufactureEfficiency": "96.2",
+                "picknoaPerShift": "200",
+                "warpstopPerShift": "13",
+                "weftstopPerShift": "13",
+                "lenostopPerShift": "13",
+                "totalstopPerShift": "13",
+                "averageRpmPerShift": "450",
+                "clothbeamPerShift": "3"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "clothOrdrerDetail",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "clothOrdrerCore": {
+            "clothOrdrerCoreUuid": "26985800-ca7a-4ab2-8b8e-6034cb0b4acc",
+            "clothOrderCoreNo": {
+                "title": "訂單編號",
+                "type": "label",
+                "required": true,
+                "value": "od-20191018-7"
+            },
+            "client": {
+                "title": "客戶",
+                "type": "label",
+                "required": false,
+                "value": "台南紡織"
+            },
+            "orderer": {
+                "title": "窗口",
+                "type": "text",
+                "required": false,
+                "value": ""
+            },
+            "orderer_email": {
+                "title": "窗口 e-mail",
+                "type": "text",
+                "required": false,
+                "value": ""
+            },
+            "clientOrderNo": {
+                "title": "客戶端訂單號碼",
+                "type": "text",
+                "required": false,
+                "value": ""
+            },
+            "inChargeSales": {
+                "title": "業務",
+                "type": "label",
+                "required": false,
+                "value": "王小美"
+            },
+            "createDate": {
+                "title": "下單日期",
+                "type": "label",
+                "required": true,
+                "value": "2019/10/18"
+            },
+            "quotationCoreNo": {
+                "title": "報價單號",
+                "type": "label",
+                "required": false,
+                "value": "quo-20190918-7"
+            },
+            "quotationCoreUuid": {
+                "title": "報價單Uuid",
+                "type": "hidden",
+                "required": false,
+                "value": "72f846bd-0f55-435e-9ac9-a1ab7bd5336c"
+            },
+            "note": {
+                "title": "備註",
+                "type": "textarea",
+                "required": false,
+                "value": ""
+            },
+            "status": {
+                "title": "狀態",
+                "type": "text",
+                "required": false,
+                "value": "訂單暫存"
+            }
+        },
+        "clothOrdrerDetails": {
+            "header": {
+                "clothOrderDetailUuid": {
+                    "title": "布種訂單細節 Uuid",
+                    "type": "hidden",
+                    "required": true
+                },
+                "clothOrderDetailDeliverQuantityUuid": {
+                    "title": "布種訂單分批出貨交期&數量 Uuid",
+                    "type": "hidden",
+                    "required": true
+                },
+                "clothNo": {
+                    "title": "布號",
+                    "type": "label",
+                    "required": false
+                },
+                "clothCoreGreySpec": {
+                    "title": "布種規格",
+                    "type": "label",
+                    "required": true
+                },
+                "orderQuantity": {
+                    "title": "下單量(y)",
+                    "type": "label",
+                    "required": false
+                },
+                "deliverDate": {
+                    "title": "交期",
+                    "type": "label",
+                    "required": false
+                },
+                "price": {
+                    "title": "單價(NT$)",
+                    "type": "label",
+                    "required": false
+                },
+                "wage": {
+                    "title": "工繳(NT$)",
+                    "type": "label",
+                    "required": false
+                },
+                "deliverLocation": {
+                    "title": "出貨目的地",
+                    "type": "label",
+                    "required": false
+                },
+                "clothOrdrerDetailNote": {
+                    "title": "備註",
+                    "type": "label",
+                    "required": false
+                },
+                "addDeliver": {
+                    "title": "新增交期",
+                    "type": "label",
+                    "required": false
+                },
+                "delDeliver": {
+                    "title": "刪除交期",
+                    "type": "label",
+                    "required": false
+                }
+            },
+            "contents": [
+                {
+                    "clothOrderDetailUuid": "e48a17b7-dd56-412e-9e39-2e615f9b055a",
+                    "clothOrderDetailDeliverQuantityUuid": "5a4c74b8-1cf5-4831-8b48-ae8fc45ea0ff",
+                    "clothNo": "ws998",
+                    "clothCoreGreySpec": "測試規格1",
+                    "orderQuantity": "200",
+                    "deliverDate": "2019/12/31",
+                    "price": "10",
+                    "wage": "1",
+                    "deliverLocation": "台南紡織",
+                    "clothOrdrerDetailNote": "測試資料1",
+                    "addDeliver": "",
+                    "delDeliver": ""
+                },
+                {
+                    "clothOrderDetailUuid": "9483ca18-8480-4862-8b3d-e341d2104a48",
+                    "clothOrderDetailDeliverQuantityUuid": "ddd39f7c-ac6e-40b6-b78f-6782ab3aef30",
+                    "clothNo": "ws9910",
+                    "clothCoreGreySpec": "測試規格2",
+                    "orderQuantity": "500",
+                    "deliverDate": "2019/12/15",
+                    "price": "20",
+                    "wage": "2",
+                    "deliverLocation": "台南紡織",
+                    "clothOrdrerDetailNote": "測試資料2",
+                    "addDeliver": "",
+                    "delDeliver": ""
+                }
+            ]
+        },
+        "attachment": {
+            "attachmentCoreUuid": "80d2cf92-adc3-49bc-aba7-92a2dc901391",
+            "verifyToken": "ea3f35bfa83f9fd1276c13fb349a0fddee367253",
+            "attachmentDetails": []
+        }
+    }
+}

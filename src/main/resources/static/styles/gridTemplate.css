@@ -1,0 +1,64 @@
+/*grid toolbar*/
+.k-grid-toolbar .toolbar-search {
+  border-spacing: 10px 0px;
+}
+
+.k-grid-toolbar .table_bar_box {
+  display: inline-flex;
+  width: unset;
+  margin: unset;
+}
+
+.k-grid-toolbar td {
+  background-color: #3399ff;
+  border-width: 0px;
+  padding: 0px 2px 0px 0px;
+  text-align: center;
+}
+
+.k-grid-toolbar input {
+  height: auto;
+  border-radius: 5px;
+}
+
+.k-grid-toolbar .search .clear {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  color: grey;
+  right: 50px;
+  top: unset;
+}
+
+.k-grid-toolbar .search-btn {
+  padding: 3px 8px;
+  background-color: #F8F8FF;
+  border-style: none;
+  color: #666;
+  border-radius: 5px;
+}
+
+.k-grid-toolbar .search-detail {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.k-grid-toolbar td>.search-detail {
+  text-align: left;
+}
+
+.search-panel {
+  border-width: 0px;
+}
+
+.search-panel .k-content {
+  background-color: #3399ff;
+  border-width: 0px;
+}
+
+.advanced-search-detail {
+  display: inline-block;
+  width: 85%;
+  vertical-align: middle;
+}

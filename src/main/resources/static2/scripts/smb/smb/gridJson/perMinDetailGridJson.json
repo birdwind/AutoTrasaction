@@ -1,0 +1,95 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "smb",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "smbPerMinUuid": {
+                "title": "smb.smbPerMinUuid",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "weavingMachineCoreNo": {
+                "title": "機台編號",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "manufactureOrderNo": {
+                "title": "當前工單",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "clothOrderNo": {
+                "title": "當前訂單",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "clothNo": {
+                "title": "當前布號",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "restBeamLength": {
+                "title": "經軸殘量",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "clothOffLength": {
+                "title": "落布長",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "clothbeamPerMin": {
+                "title": "累積落布次數",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "expectClothOffDatetime": {
+                "title": "預落布時間",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "smbPerMinUuid": "8e8142aa-0b3c-421a-90ea-f86c15b7352a",
+                "weavingMachineCoreNo": "101",
+                "manufactureOrderNo": "MO-20191010-1",
+                "clothOrderNo": "od-20191001-1",
+                "clothNo": "WS-1234",
+                "restBeamLength": "1192.1 Y",
+                "clothOffLength": "222 Y",
+                "clothbeamPerMin": "2",
+                "expectClothOffDatetime": "2019/10/18 23:01"
+            },
+            {
+                "smbPerMinUuid": "be8c5b80-9151-4cfb-803e-4c4d99a3dfe8",
+                "weavingMachineCoreNo": "102",
+                "manufactureOrderNo": "MO-20191010-2",
+                "clothOrderNo": "od-20191001-2",
+                "clothNo": "WS-1235",
+                "restBeamLength": "1100.0 Y",
+                "clothOffLength": "333 Y",
+                "clothbeamPerMin": "2",
+                "expectClothOffDatetime": "2019/10/18 12:01"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

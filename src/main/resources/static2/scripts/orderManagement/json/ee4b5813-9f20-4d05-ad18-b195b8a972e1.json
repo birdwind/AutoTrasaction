@@ -1,0 +1,185 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "clothOrdrerDetail",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "clothOrdrerCore": {
+            "clothOrdrerCoreUuid": "ee4b5813-9f20-4d05-ad18-b195b8a972e1",
+            "clothOrderCoreNo": {
+                "title": "訂單編號",
+                "type": "label",
+                "required": true,
+                "value": "od-20191018-6"
+            },
+            "client": {
+                "title": "客戶",
+                "type": "label",
+                "required": false,
+                "value": "台元紡織"
+            },
+            "orderer": {
+                "title": "窗口",
+                "type": "label",
+                "required": false,
+                "value": "王美"
+            },
+            "orderer_email": {
+                "title": "窗口 e-mail",
+                "type": "label",
+                "required": false,
+                "value": "may@gmail.com"
+            },
+            "clientOrderNo": {
+                "title": "客戶端訂單號碼",
+                "type": "label",
+                "required": false,
+                "value": "5678"
+            },
+            "inChargeSales": {
+                "title": "業務",
+                "type": "label",
+                "required": false,
+                "value": "王小美"
+            },
+            "createDate": {
+                "title": "下單日期",
+                "type": "label",
+                "required": true,
+                "value": "2019/10/18"
+            },
+            "quotationCoreNo": {
+                "title": "報價單號",
+                "type": "label",
+                "required": false,
+                "value": "quo-20190918-6"
+            },
+            "quotationCoreUuid": {
+                "title": "報價單Uuid",
+                "type": "hidden",
+                "required": false,
+                "value": "82db5e8d-40b4-4b84-9e59-32f0726ed784"
+            },
+            "note": {
+                "title": "備註",
+                "type": "textarea_label",
+                "required": false,
+                "value": ""
+            },
+            "status": {
+                "title": "狀態",
+                "type": "label",
+                "required": false,
+                "value": "已出貨"
+            }
+        },
+        "clothOrdrerDetails": {
+            "header": {
+                "clothOrderDetailUuid": {
+                    "title": "布種訂單細節 Uuid",
+                    "type": "hidden",
+                    "required": true
+                },
+                "clothOrderDetailDeliverQuantityUuid": {
+                    "title": "布種訂單分批出貨交期&數量 Uuid",
+                    "type": "hidden",
+                    "required": true
+                },
+                "clothNo": {
+                    "title": "布號",
+                    "type": "label",
+                    "required": false
+                },
+                "clothCoreGreySpec": {
+                    "title": "布種規格",
+                    "type": "label",
+                    "required": true
+                },
+                "orderQuantity": {
+                    "title": "下單量(y)",
+                    "type": "label",
+                    "required": false
+                },
+                "deliverDate": {
+                    "title": "交期",
+                    "type": "label",
+                    "required": false
+                },
+                "price": {
+                    "title": "單價(NT$)",
+                    "type": "label",
+                    "required": false
+                },
+                "wage": {
+                    "title": "工繳(NT$)",
+                    "type": "label",
+                    "required": false
+                },
+                "deliverLocation": {
+                    "title": "出貨目的地",
+                    "type": "label",
+                    "required": false
+                },
+                "clothOrdrerDetailNote": {
+                    "title": "備註",
+                    "type": "label",
+                    "required": false
+                },
+                "scheduleStatus": {
+                    "title": "狀態",
+                    "type": "label",
+                    "required": false
+                },
+                "orderSchedule": {
+                    "title": "生產履歷",
+                    "type": "label",
+                    "required": false
+                },
+                "orderAnalytics": {
+                    "title": "成本分析",
+                    "type": "label",
+                    "required": false
+                }
+            },
+            "contents": [
+                {
+                    "clothOrderDetailUuid": "dbadcd8e-324c-44db-a0ac-cf3c67e112d4",
+                    "clothOrderDetailDeliverQuantityUuid": "43f25379-0a07-4f7c-9f24-04b2a9b54088",
+                    "clothNo": "ws998",
+                    "clothCoreGreySpec": "測試規格1",
+                    "orderQuantity": "200",
+                    "deliverDate": "2019/12/31",
+                    "price": "10",
+                    "wage": "1",
+                    "deliverLocation": "台南市新營區",
+                    "clothOrdrerDetailNote": "測試資料1",
+                    "scheduleStatus": "已出貨",
+                    "orderSchedule": "",
+                    "orderAnalytics": ""
+                },
+                {
+                    "clothOrderDetailUuid": "bdfaa3e0-5da6-4d9e-abc6-ad4d616c80ff",
+                    "clothOrderDetailDeliverQuantityUuid": "5eb1d269-0891-454f-972c-0894836b3a36",
+                    "clothNo": "ws9910",
+                    "clothCoreGreySpec": "測試規格2",
+                    "orderQuantity": "500",
+                    "deliverDate": "2019/12/15",
+                    "price": "20",
+                    "wage": "2",
+                    "deliverLocation": "台南市新營區",
+                    "clothOrdrerDetailNote": "測試資料2",
+                    "scheduleStatus": "已出貨",
+                    "orderSchedule": "",
+                    "orderAnalytics": ""
+                }
+            ]
+        },
+        "attachment": {
+            "attachmentCoreUuid": "80d2cf92-adc3-49bc-aba7-92a2dc901391",
+            "verifyToken": "ea3f35bfa83f9fd1276c13fb349a0fddee367253",
+            "attachmentDetails": []
+        }
+    }
+}

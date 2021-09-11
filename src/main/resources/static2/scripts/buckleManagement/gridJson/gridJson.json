@@ -1,0 +1,78 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "buckleCore",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "buckleCoreUuid": {
+                "title": "buckle.buckleCoreUuid",
+                "type": "hidden",
+                "required": false
+            },
+            "buckleCoreNo": {
+                "title": "鋼筘編號",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "currentLocation": {
+                "title": "目前位置",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "buckleSpec": {
+                "title": "鋼筘規格",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "manufactureOrderCoreNo": {
+                "title": "綁定工單",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "batchNo": {
+                "title": "經紗批號",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "status": {
+                "title": "盤頭狀態",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "buckleCoreUuid": "3064c549-46c6-44e7-b3df-9a8f709a8993",
+                "buckleCoreNo": "bc-1",
+                "currentLocation": "織布站",
+                "buckleSpec": "180cm",
+                "manufactureOrderCoreNo": "mano-20191016-1439",
+                "batchNo": "batch-01",
+                "status": "使用"
+            },
+            {
+                "buckleCoreUuid": "fd3adc23-c708-46f5-adcc-d0a3815e4c1a",
+                "buckleCoreNo": "bc-2",
+                "currentLocation": "廢棄倉庫",
+                "buckleSpec": "180cm",
+                "manufactureOrderCoreNo": "",
+                "batchNo": "",
+                "status": "不使用"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

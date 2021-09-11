@@ -1,0 +1,134 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "smb",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "instrumentPanelPerMinUuid": {
+                "title": "smb.instrumentPanelPerMinUuid",
+                "type": "hidden",
+                "required": false
+            },
+            "smbPerMinUuid": {
+                "title": "",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "manufactureOrderNo": {
+                "title": "當前工單",
+                "type": "hidden",
+                "required": false,
+                "search": "date"
+            },
+            "clothOrderNo": {
+                "title": "當前訂單",
+                "type": "hidden",
+                "required": false,
+                "search": "string"
+            },
+            "clothNo": {
+                "title": "當前布號",
+                "type": "hidden",
+                "required": false,
+                "search": "date"
+            },
+            "weavingMachineCoreUuid": {
+                "title": "機台uuid",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "weavingMachineCoreNo": {
+                "title": "機台編號",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "rpm": {
+                "title": "當前轉速",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "warpstop": {
+                "title": "累積經停",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "weftstop": {
+                "title": "累積緯停",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "lenostop": {
+                "title": "累積絞邊紗停",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "mchfail": {
+                "title": "累積機故次數",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "manufactureEfficiency": {
+                "title": "平均生產效率",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "member": {
+                "title": "檔車人員",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "instrumentPanelPerMinUuid": "fe18bca1-1a60-44ee-9dd0-f8cea21e982a",
+                "smbPerMinUuid": "8e8142aa-0b3c-421a-90ea-f86c15b7352a",
+                "manufactureOrderNo": "MO-20191010-1",
+                "clothOrderNo": "od-20191001-1",
+                "clothNo": "WS-1234",
+                "weavingMachineCoreUuid": "ed61752e-3801-4952-a8cf-2744590e5ef2",
+                "weavingMachineCoreNo": "101",
+                "rpm": "459",
+                "warpstop": "1",
+                "weftstop": "2",
+                "lenostop": "0",
+                "mchfail": "2",
+                "manufactureEfficiency": "96.4%",
+                "member": "吳源鴻"
+            },
+            {
+                "instrumentPanelPerMinUuid": "3cc7cd68-27e7-47ab-8930-3b86ffdb20f0",
+                "smbPerMinUuid": "be8c5b80-9151-4cfb-803e-4c4d99a3dfe8",
+                "manufactureOrderNo": "MO-20191010-2",
+                "clothOrderNo": "od-20191001-2",
+                "clothNo": "WS-1235",
+                "weavingMachineCoreUuid": "2929a41a-a13e-4e84-90e5-d63632e6c30d",
+                "weavingMachineCoreNo": "102",
+                "rpm": "479",
+                "warpstop": "0",
+                "weftstop": "0",
+                "lenostop": "0",
+                "mchfail": "1",
+                "manufactureEfficiency": "98.9%",
+                "member": "許添財"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

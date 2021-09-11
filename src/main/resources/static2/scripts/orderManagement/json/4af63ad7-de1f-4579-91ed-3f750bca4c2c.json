@@ -1,0 +1,185 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "clothOrdrerDetail",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "clothOrdrerCore": {
+            "clothOrdrerCoreUuid": "4af63ad7-de1f-4579-91ed-3f750bca4c2c",
+            "clothOrderCoreNo": {
+                "title": "訂單編號",
+                "type": "label",
+                "required": true,
+                "value": "od-20191018-3"
+            },
+            "client": {
+                "title": "客戶",
+                "type": "label",
+                "required": false,
+                "value": "大証紡織"
+            },
+            "orderer": {
+                "title": "窗口",
+                "type": "label",
+                "required": false,
+                "value": "李杰"
+            },
+            "orderer_email": {
+                "title": "窗口 e-mail",
+                "type": "label",
+                "required": false,
+                "value": "j_lee@gmail.com"
+            },
+            "clientOrderNo": {
+                "title": "客戶端訂單號碼",
+                "type": "label",
+                "required": false,
+                "value": "6666-168"
+            },
+            "inChargeSales": {
+                "title": "業務",
+                "type": "label",
+                "required": false,
+                "value": "王小美"
+            },
+            "createDate": {
+                "title": "下單日期",
+                "type": "label",
+                "required": true,
+                "value": "2019/10/18"
+            },
+            "quotationCoreNo": {
+                "title": "報價單號",
+                "type": "label",
+                "required": false,
+                "value": "quo-20190918-3"
+            },
+            "quotationCoreUuid": {
+                "title": "報價單Uuid",
+                "type": "hidden",
+                "required": false,
+                "value": "66db34b4-ed79-420e-8051-fd93ace1e7e1"
+            },
+            "note": {
+                "title": "備註",
+                "type": "textarea_label",
+                "required": false,
+                "value": "Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget."
+            },
+            "status": {
+                "title": "狀態",
+                "type": "label",
+                "required": false,
+                "value": "待排程"
+            }
+        },
+        "clothOrdrerDetails": {
+            "header": {
+                "clothOrderDetailUuid": {
+                    "title": "布種訂單細節 Uuid",
+                    "type": "hidden",
+                    "required": true
+                },
+                "clothOrderDetailDeliverQuantityUuid": {
+                    "title": "布種訂單分批出貨交期&數量 Uuid",
+                    "type": "hidden",
+                    "required": true
+                },
+                "clothNo": {
+                    "title": "布號",
+                    "type": "label",
+                    "required": false
+                },
+                "clothCoreGreySpec": {
+                    "title": "布種規格",
+                    "type": "label",
+                    "required": true
+                },
+                "orderQuantity": {
+                    "title": "下單量(y)",
+                    "type": "label",
+                    "required": false
+                },
+                "deliverDate": {
+                    "title": "交期",
+                    "type": "label",
+                    "required": false
+                },
+                "price": {
+                    "title": "單價(NT$)",
+                    "type": "label",
+                    "required": false
+                },
+                "wage": {
+                    "title": "工繳(NT$)",
+                    "type": "label",
+                    "required": false
+                },
+                "deliverLocation": {
+                    "title": "出貨目的地",
+                    "type": "label",
+                    "required": false
+                },
+                "clothOrdrerDetailNote": {
+                    "title": "備註",
+                    "type": "label",
+                    "required": false
+                },
+                "scheduleStatus": {
+                    "title": "狀態",
+                    "type": "label",
+                    "required": false
+                },
+                "orderSchedule": {
+                    "title": "生產履歷",
+                    "type": "label",
+                    "required": false
+                },
+                "orderAnalytics": {
+                    "title": "成本分析",
+                    "type": "label",
+                    "required": false
+                }
+            },
+            "contents": [
+                {
+                    "clothOrderDetailUuid": "cdbfc455-ba7f-43c2-8891-5f0bda1be031",
+                    "clothOrderDetailDeliverQuantityUuid": "73bb5a57-90dd-4d44-b9a1-f4b4a19c3527",
+                    "clothNo": "ws9987",
+                    "clothCoreGreySpec": "測試規格333",
+                    "orderQuantity": "2000",
+                    "deliverDate": "2019/12/31",
+                    "price": "2.5",
+                    "wage": "1",
+                    "deliverLocation": "台北市文山區",
+                    "clothOrdrerDetailNote": "測試資料666",
+                    "scheduleStatus": "待排程",
+                    "orderSchedule": "",
+                    "orderAnalytics": ""
+                },
+                {
+                    "clothOrderDetailUuid": "9eb3f429-c8d1-44e6-b7f4-b0e98bff32f6",
+                    "clothOrderDetailDeliverQuantityUuid": "afe4cf22-fbd8-43c9-bb18-1b41acc3c4b2",
+                    "clothNo": "ws9988",
+                    "clothCoreGreySpec": "測試規格222",
+                    "orderQuantity": "500",
+                    "deliverDate": "2019/12/15",
+                    "price": "4.8",
+                    "wage": "3",
+                    "deliverLocation": "台北市信義區",
+                    "clothOrdrerDetailNote": "測試資料2333",
+                    "scheduleStatus": "待排程",
+                    "orderSchedule": "",
+                    "orderAnalytics": ""
+                }
+            ]
+        },
+        "attachment": {
+            "attachmentCoreUuid": "80d2cf92-adc3-49bc-aba7-92a2dc901391",
+            "verifyToken": "ea3f35bfa83f9fd1276c13fb349a0fddee367253",
+            "attachmentDetails": []
+        }
+    }
+}

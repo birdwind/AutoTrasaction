@@ -1,0 +1,144 @@
+.k-detail-cell .timeline > li{
+  margin: 0px -6px 0px 0px;
+}
+.timeline {
+  list-style-type: none;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px 0px 0px;
+  width: max-content;
+}
+
+.timeline:before {
+  content: unset;
+}
+
+.timeline > li {
+  margin-right: unset;
+  margin-bottom: unset;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.li {
+  transition: all 200ms ease-in;
+  padding-top: 30px;
+}
+
+.timestamp {
+  margin-bottom: 20px;
+  padding: 0px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+}
+
+.timestamp span{
+  color: #000000;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.timestamp .bold{
+  font-weight: 700;
+  color: #a6a6a6;
+}
+
+.status {
+  padding: 0px 20px 0px 0px;
+  display: flex;
+  /*justify-content: center;*/
+  border-top: 2px solid #D6DCE0;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+
+.status .title {
+  font-weight: 600;
+  margin: 10px 0px 0px 0px;
+}
+
+.status:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -15px;
+  transition: all 200ms ease-in;
+}
+
+.li.complete .status {
+  border-top: 5px solid #4f834f;
+  margin: -2px 0px 2px 0px;
+}
+
+.li.complete .status:before {
+  background-color: #4f834f;
+  border: none;
+  transition: all 200ms ease-in;
+}
+
+.li.complete .status .title {
+  color: #4f834f;
+}
+
+.li.failed .status {
+  border-top: 5px solid #ca4d5a;
+  margin: -2px 0px 2px 0px;
+}
+
+.li.failed .status:before {
+  background-color: #ca4d5a;
+  border: none;
+  transition: all 200ms ease-in;
+}
+
+.li.failed .status .title {
+  color: #ca4d5a;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 700px) {
+  .timeline {
+    list-style-type: none;
+    display: block;
+  }
+
+  .li {
+    transition: all 200ms ease-in;
+    display: flex;
+    width: inherit;
+  }
+
+  .timestamp {
+    width: 100px;
+  }
+
+  .status:before {
+    left: -8%;
+    top: 30%;
+    transition: all 200ms ease-in;
+  }
+}
+
+#toggleButton {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  background-color: #75C7F6;
+}
+
+.horizontal-overflow {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.horizontal-overflow ul {
+  display: inline-table;
+}

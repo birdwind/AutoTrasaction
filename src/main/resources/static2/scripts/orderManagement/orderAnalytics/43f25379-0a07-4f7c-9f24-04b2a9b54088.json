@@ -1,0 +1,354 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "clothOrdrerDetail",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "clothOrdrerCore": {
+            "clothOrdrerCoreUuid": "ee4b5813-9f20-4d05-ad18-b195b8a972e1",
+            "clothOrderCoreNo": {
+                "title": "訂單編號",
+                "type": "label",
+                "required": true,
+                "value": "od-20191018-6"
+            },
+            "client": {
+                "title": "客戶",
+                "type": "label",
+                "required": false,
+                "value": "台元紡織"
+            },
+            "orderer": {
+                "title": "窗口",
+                "type": "label",
+                "required": false,
+                "value": "王美"
+            },
+            "orderer_email": {
+                "title": "窗口 e-mail",
+                "type": "label",
+                "required": false,
+                "value": "may@gmail.com"
+            },
+            "clientOrderNo": {
+                "title": "客戶端訂單號碼",
+                "type": "label",
+                "required": false,
+                "value": "5678"
+            },
+            "inChargeSales": {
+                "title": "業務",
+                "type": "label",
+                "required": false,
+                "value": "王小美"
+            },
+            "createDate": {
+                "title": "下單日期",
+                "type": "label",
+                "required": true,
+                "value": "2019/10/18"
+            },
+            "quotationCoreNo": {
+                "title": "報價單號",
+                "type": "label",
+                "required": false,
+                "value": "quo-20190918-6"
+            },
+            "quotationCoreUuid": {
+                "title": "報價單Uuid",
+                "type": "hidden",
+                "required": false,
+                "value": "82db5e8d-40b4-4b84-9e59-32f0726ed784"
+            }
+        },
+        "clothOrdrerDetails": {
+            "header": {
+                "clothNo": {
+                    "title": "布號",
+                    "type": "label",
+                    "required": false
+                },
+                "clothCoreGreySpec": {
+                    "title": "布種規格",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "clothNo": "ws998",
+                    "clothCoreGreySpec": "測試規格1"
+                }
+            ]
+        },
+        "yarnPurchaseDetails": {
+            "header": {
+                "yarnNo": {
+                    "title": "紗種",
+                    "type": "label",
+                    "required": false
+                },
+                "yarnPurchaseNo": {
+                    "title": "批號",
+                    "type": "label",
+                    "required": false
+                },
+                "supplier": {
+                    "title": "供應商",
+                    "type": "label",
+                    "required": false
+                },
+                "purchaseAmount": {
+                    "title": "採購數量",
+                    "type": "label",
+                    "required": false
+                },
+                "purchasePrice": {
+                    "title": "單價",
+                    "type": "label",
+                    "required": false
+                },
+                "extraFee": {
+                    "title": "額外費用",
+                    "type": "label",
+                    "required": false
+                },
+                "subtotal": {
+                    "title": "小計",
+                    "type": "label",
+                    "required": false
+                },
+                "warpWeft": {
+                    "title": "經/緯",
+                    "type": "label",
+                    "required": false
+                },
+                "stock": {
+                    "title": "殘量",
+                    "type": "label",
+                    "required": false
+                }
+            },
+            "contents": [
+                {
+                    "yarnNo": "R32",
+                    "yarnPurchaseNo": "ba-001",
+                    "supplier": "新光",
+                    "purchaseAmount": "23件",
+                    "purchasePrice": "2.1",
+                    "extraFee": "100",
+                    "subtotal": "345.2",
+                    "warpWeft": "經",
+                    "stock": "0"
+                },
+                {
+                    "yarnNo": "N18",
+                    "yarnPurchaseNo": "ba-033",
+                    "supplier": "三越",
+                    "purchaseAmount": "20公斤",
+                    "purchasePrice": "3.1",
+                    "extraFee": "30",
+                    "subtotal": "321.4",
+                    "warpWeft": "緯",
+                    "stock": "1.2"
+                }
+            ]
+        },
+        "scheduleWarpingDetails": {
+            "header": {
+                "warpingStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "timeConsuming": {
+                    "title": "耗時",
+                    "type": "label",
+                    "required": true
+                },
+                "yield": {
+                    "title": "產量",
+                    "type": "label",
+                    "required": true
+                },
+                "warpingFinishShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                },
+                "warpingSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "warpingStaff": "李阿珠",
+                    "timeConsuming": "4.5 hr",
+                    "yield": "1000Y",
+                    "warpingFinishShift": "早",
+                    "warpingSupervisor": "李海龍"
+                },
+                {
+                    "warpingStaff": "陳美莉",
+                    "timeConsuming": "5 hr",
+                    "yield": "1000Y",
+                    "warpingFinishShift": "午",
+                    "warpingSupervisor": "許無敵"
+                }
+            ]
+        },
+        "scheduleDrafingDetails": {
+            "header": {
+                "draftingDStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "timeConsuming": {
+                    "title": "耗時",
+                    "type": "label",
+                    "required": true
+                },
+                "draftingfinishShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                },
+                "draftingSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "draftingDStaff": "李阿珠",
+                    "timeConsuming": "4.5 hr",
+                    "draftingfinishShift": "早",
+                    "draftingSupervisor": "吳順發"
+                },
+                {
+                    "draftingDStaff": "陳美莉",
+                    "timeConsuming": "5 hr",
+                    "draftingfinishShift": "午",
+                    "draftingSupervisor": "蘇阿姨"
+                }
+            ]
+        },
+        "scheduleWeavingDetails": {
+            "header": {
+                "doffingStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "timeConsuming": {
+                    "title": "耗時",
+                    "type": "label",
+                    "required": true
+                },
+                "weavingMachineCoreNo": {
+                    "title": "織機編號",
+                    "type": "label",
+                    "required": true
+                },
+                "yield": {
+                    "title": "產量",
+                    "type": "label",
+                    "required": true
+                },
+                "doffingShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                },
+                "doffingSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "doffingStaff": "李阿珠",
+                    "timeConsuming": "4.5 hr",
+                    "weavingMachineCoreNo": "102",
+                    "yield": "1000Y",
+                    "doffingShift": "早",
+                    "doffingSupervisor": "鄭茶星"
+                },
+                {
+                    "doffingStaff": "陳美莉",
+                    "timeConsuming": "5 hr",
+                    "weavingMachineCoreNo": "204",
+                    "yield": "2133Y",
+                    "doffingShift": "午",
+                    "doffingSupervisor": "黃雷"
+                }
+            ]
+        },
+        "scheduleInspectionDetails": {
+            "header": {
+                "inspectionStaff": {
+                    "title": "人員",
+                    "type": "label",
+                    "required": true
+                },
+                "timeConsuming": {
+                    "title": "耗時",
+                    "type": "label",
+                    "required": true
+                },
+                "weavingMachineCoreNo": {
+                    "title": "織機編號",
+                    "type": "label",
+                    "required": true
+                },
+                "yield": {
+                    "title": "產量",
+                    "type": "label",
+                    "required": true
+                },
+                "inspectionShift": {
+                    "title": "班別",
+                    "type": "label",
+                    "required": true
+                },
+                "inspectionSupervisor": {
+                    "title": "主管",
+                    "type": "label",
+                    "required": true
+                },
+                "eventScore": {
+                    "title": "等級",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "inspectionStaff": "李阿珠",
+                    "timeConsuming": "4.5 hr",
+                    "weavingMachineCoreNo": "102",
+                    "yield": "1000Y",
+                    "inspectionShift": "早",
+                    "inspectionSupervisor": "鄭茶星",
+                    "eventScore": "A"
+                },
+                {
+                    "inspectionStaff": "陳美莉",
+                    "timeConsuming": "5 hr",
+                    "weavingMachineCoreNo": "204",
+                    "yield": "2133Y",
+                    "inspectionShift": "午",
+                    "inspectionSupervisor": "黃雷",
+                    "eventScore": "次級"
+                }
+            ]
+        }
+    }
+}

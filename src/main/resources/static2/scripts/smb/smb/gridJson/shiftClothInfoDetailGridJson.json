@@ -1,0 +1,107 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "smb",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "header": {
+            "smbPerShiftUuid": {
+                "title": "smb.smbPerMinUuid",
+                "type": "hidden",
+                "required": true,
+                "search": "string"
+            },
+            "clothNo": {
+                "title": "布號",
+                "type": "label",
+                "required": true,
+                "search": "string"
+            },
+            "startDatetime": {
+                "title": "生產 (起)",
+                "type": "label",
+                "required": true,
+                "search": "string"
+            },
+            "endDatetime": {
+                "title": "生產 (迄)",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "totalWeavingYard": {
+                "title": "總生產碼長",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "totalClothbeamPerShift": {
+                "title": "累積落布次數",
+                "type": "label",
+                "required": false,
+                "search": "date"
+            },
+            "manufactureOrderNo": {
+                "title": "工單編號",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            },
+            "clothOrderNo": {
+                "title": "訂單編號",
+                "type": "label",
+                "required": false,
+                "search": "string"
+            }
+        },
+        "contents": [
+            {
+                "smbPerShiftUuid": "df0e56bd-6a0c-41c8-9a05-ee53993bbacc",
+                "clothNo": "ws-1234",
+                "startDatetime": "2019/10/13 8:20",
+                "endDatetime": "2019/10/13 21:30",
+                "totalWeavingYard": "221.2 Y",
+                "totalClothbeamPerShift": "2",
+                "manufactureOrderNo": "MO-20191013-1",
+                "clothOrderNo": "OD-20191013-1"
+            },
+            {
+                "smbPerShiftUuid": "df0e56bd-6a0c-41c8-9a05-ee53993bbacc",
+                "clothNo": "ws-2345",
+                "startDatetime": "2019/10/13 8:21",
+                "endDatetime": "2019/10/13 19:05",
+                "totalWeavingYard": "123.5 Y",
+                "totalClothbeamPerShift": "1",
+                "manufactureOrderNo": "MO-20191014-2",
+                "clothOrderNo": "OD-20191014-2"
+            },
+            {
+                "smbPerShiftUuid": "606a785c-6311-4e9e-be57-d37e341d211b",
+                "clothNo": "ws-3456",
+                "startDatetime": "2019/10/13 12:20",
+                "endDatetime": "2019/10/13 10:30",
+                "totalWeavingYard": "200.2 Y",
+                "totalClothbeamPerShift": "2",
+                "manufactureOrderNo": "MO-20191014-1",
+                "clothOrderNo": "OD-20191014-1"
+            },
+            {
+                "smbPerShiftUuid": "606a785c-6311-4e9e-be57-d37e341d211b",
+                "clothNo": "ws-3567",
+                "startDatetime": "2019/10/14 12:20",
+                "endDatetime": "2019/10/14 10:30",
+                "totalWeavingYard": "300.2 Y",
+                "totalClothbeamPerShift": "3",
+                "manufactureOrderNo": "MO-20191015-1",
+                "clothOrderNo": "OD-20191015-1"
+            }
+        ],
+        "totalElements": 0,
+        "size": 10,
+        "numberOfElements": 10,
+        "currentPage": 0,
+        "totalPages": 1
+    }
+}

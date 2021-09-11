@@ -1,0 +1,208 @@
+  #btn-calculator{
+    position: fixed;
+    bottom: 350px;
+    right:20px;
+    z-index:10001; 
+    width: 45px;
+    height: 45px;
+  }
+  .pop_content {
+    position: absolute; 
+    top: 25%; 
+    left: 25%; 
+    width: 50%; 
+    padding: 20px; 
+    background-color: white;
+    border-radius: 20px;
+    z-index:1002; 
+    overflow: auto; 
+  }
+  .pop_content_s {
+    left: 35%; 
+    width: 30%; 
+  } 
+  
+  @media (max-width:767px){
+    .pop_content { 
+      left: 10%;
+      width: 80%;
+    }
+  }
+  .pop_count{
+    display: none;
+    position: absolute;
+    top: 12%;
+    left: 33%;
+    padding: 7px 7px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 10002;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 2px lightgrey;
+  }
+  @media (max-width:1024px){
+    .pop_count{left: 29%;}
+  }
+  @media (max-width:768px){
+    .pop_count{left: 21%;}
+  }
+
+  .pop_bigbtnbox{
+    max-height: 320px;
+      overflow-y: scroll;
+  }
+  .pop_btn_nook{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-left: 11px;
+    line-height: 33px;
+    border: none;
+  }   
+  #cal_closex{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.3;
+  }
+  .info {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .calculator {
+    width: 430px;
+    height: 475px;
+    margin: 30px auto 0px;
+    padding: 20px;
+    border: 5px solid #fff;
+  }
+  
+  .screen {
+    background: #ddd;
+    height: 100px;
+    padding: 10px;
+    text-align: right;
+    border: 2px solid;
+    border-top-color: #f7f7f7;
+    border-left-color: #f7f7f7;
+    border-bottom-color: #c4c4c4;
+    border-right-color: #c4c4c4;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .typed {
+    color: #777;
+    height: 20px;
+  }
+  
+  .input {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .buttons {
+    margin: 0 auto;
+  }
+  .buttons > div {
+    width: 85px;
+    height: 57px;
+    float: left;
+    background: #f1c233;
+    border: 3px solid;
+    border-top-color: #ffe289;
+    border-left-color: #ffe289;
+    border-bottom-color: #e8b518;
+    border-right-color: #e8b518;
+    margin: 5px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .1s;
+  }
+  .buttons .operator {
+    background: #333;
+    border: 3px solid;
+    border-top-color: #4d4d4d;
+    border-left-color: #4d4d4d;
+    border-bottom-color: #1a1a1a;
+    border-right-color: #1a1a1a;
+  }
+  .buttons .operator-blue {
+    background: #3399ff;
+    border: 3px solid;
+      border-top-color: #85c2ff;
+      border-left-color: #85c2ff;
+      border-bottom-color: #1984ef;
+      border-right-color: #1984ef;
+  }
+  .buttons .zero {
+    width: 180px;
+  }
+  .buttons .equals {
+    background: #FF5555;
+    border: 3px solid;
+    border-top-color: #ff8888;
+    border-left-color: #ff8888;
+    border-bottom-color: #ff2222;
+    border-right-color: #ff2222;
+  }
+  
+  .pressed {
+    font-size: 34px !important;
+    line-height: 47px !important;
+    color: #fff !important;
+  }
+  .pressed.operator {
+    background: #222222;
+    border: 3px solid;
+    border-top-color: #3c3c3c;
+    border-left-color: #3c3c3c;
+    border-bottom-color: #090909;
+    border-right-color: #090909;
+  }
+  
+  .pressed.operator-blue {
+    background: #1785f3;
+    border: 3px solid;
+    border-top-color: #135ba2;
+    border-left-color: #135ba2;
+    border-bottom-color: #6cacec;
+    border-right-color: #6cacec;
+  }
+  
+  .pressed.regular {
+    background: #e2ab03;
+    border: 3px solid;
+    border-top-color: #9c7a0f;
+    border-left-color: #9c7a0f;
+    border-bottom-color: #ffce38;
+    border-right-color: #ffce38;
+  }
+  .pressed.equals {
+    background: #ee4444;
+    border: 3px solid;
+    border-top-color: #ea1515;
+    border-left-color: #ea1515;
+    border-bottom-color: #f27373;
+    border-right-color: #f27373;
+  }

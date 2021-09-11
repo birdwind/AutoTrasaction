@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* ==================================================
+   流程圖 電腦版
+================================================== */
+/* lms_workflow */
+#lms_workflow {
+  position: relative;
+  height: 820px;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+#lms_workflow .container {
+  display: flex;
+  float: left;
+  background-image: url("../images/bg_workflow.jpg");
+  background-repeat: no-repeat;
+  width: 1070px;
+  height: 785px;
+}
+
+/*白方塊*/
+a.btn_workflowNoAcl {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  border-radius: 1rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  color: #333;
+  font-size: small;
+  position: absolute;
+  background-color: #666;
+  opacity: 1;
+}
+
+a.btn_workflowNoAcl>.icon_wficon {
+  opacity: 0.4;
+}
+
+a.btn_workflow {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  border-radius: 1rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  color: #333;
+  font-size: small;
+  position: absolute;
+  background-color: #fff;
+  opacity: 1;
+}
+
+a.btn_workflow:hover {
+  color: #666;
+  opacity: .8;
+}
+
+/*白方塊 ICON*/
+.icon_wficon {
+  width: 43px;
+  height: 43px;
+  display: block;
+  margin: 6px auto;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  -webkit-transition: all 0.3s ease 0.2s;
+  -moz-transition: all 0.3s ease 0.2s;
+  -ms-transition: all 0.3s ease 0.2s;
+  -o-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.1s;
+}
+
+a.btn_workflow:hover>.icon_wficon {
+  opacity: 1;
+}
+
+
+
+/*白方塊 位置*/
+.btn_wf01 {
+  left: 177px;
+  top: 82px;
+}
+
+.btn_wf02 {
+  left: 295px;
+  top: 82px;
+}
+
+.btn_wf03 {
+  left: 412px;
+  top: 82px;
+}
+
+.btn_wf04 {
+  left: 529px;
+  top: 82px;
+}
+
+.btn_wf05 {
+  left: 646px;
+  top: 82px;
+}
+
+.btn_wf06 {
+  left: 764px;
+  top: 82px;
+}
+
+.btn_wf07 {
+  left: 881px;
+  top: 82px;
+}
+
+.btn_wf08 {
+  left: 32px;
+  top: 168px;
+}
+
+.btn_wf09 {
+  left: 177px;
+  top: 228px;
+  width: 100px !important
+}
+
+.btn_wf10 {
+  left: 505px;
+  top: 228px;
+}
+
+.btn_wf11 {
+  left: 704px;
+  top: 228px;
+}
+
+.btn_wf12 {
+  left: 32px;
+  top: 347px;
+}
+
+.btn_wf13 {
+  left: 201px;
+  top: 376px;
+}
+
+.btn_wf14 {
+  left: 317px;
+  top: 376px;
+}
+
+.btn_wf15 {
+  left: 434px;
+  top: 376px;
+}
+
+.btn_wf16 {
+  left: 550px;
+  top: 376px;
+}
+
+.btn_wf17 {
+  left: 666px;
+  top: 376px;
+}
+
+.btn_wf18 {
+  left: 792px;
+  top: 319px;
+}
+
+.btn_wf19 {
+  left: 792px;
+  top: 408px;
+}
+
+.btn_wf20 {
+  left: 882px;
+  top: 408px;
+}
+
+.btn_wf21 {
+  left: 971px;
+  top: 408px;
+}
+
+.btn_wf22 {
+  left: 32px;
+  top: 513px;
+}
+
+.btn_wf23 {
+  left: 122px;
+  top: 513px;
+}
+
+.btn_wf24 {
+  left: 213px;
+  top: 513px;
+}
+
+.btn_wf25 {
+  left: 304px;
+  top: 513px;
+}
+
+.btn_wf26 {
+  left: 394px;
+  top: 513px;
+}
+
+.btn_wf27 {
+  left: 484px;
+  top: 513px;
+}
+
+.btn_wf28 {
+  left: 575px;
+  top: 513px;
+}
+
+
+/*白方塊 圖示*/
+
+/*1 營業訂單*/
+.btn_wf01_bg {
+  background-image: url("../images/icon_workflow/wf01_checklist.png");
+}
+
+/*2 成本估算*/
+.btn_wf02_bg {
+  background-image: url("../images/icon_workflow/wf02_marketing.png")
+}
+
+/*3 採購管理*/
+.btn_wf03_bg {
+  background-image: url("../images/icon_workflow/wf03_shopping-cart.png")
+}
+
+/*4 委外代織*/
+.btn_wf04_bg {
+  background-image: url("../images/icon_workflow/wf04_factory-2.png")
+}
+
+/*5 織物設計*/
+.btn_wf05_bg {
+  background-image: url("../images/icon_workflow/wf05_fabric.png")
+}
+
+/*6 客戶管理*/
+.btn_wf06_bg {
+  background-image: url("../images/icon_workflow/wf06_planning.png")
+}
+
+/*7 廠商管理*/
+.btn_wf07_bg {
+  background-image: url("../images/icon_workflow/wf07_enterprise.png")
+}
+
+/*8 工單賦予*/
+.btn_wf08_bg {
+  background-image: url("../images/icon_workflow/wf08_document.png")
+}
+
+/*9 交期模擬演算*/
+.btn_wf09_bg {
+  background-image: url("../images/icon_workflow/wf09_stopwatches.png")
+}
+
+/*10 製造規範*/
+.btn_wf10_bg {
+  background-image: url("../images/icon_workflow/wf10_diagram.png")
+}
+
+/*11 產品管理*/
+.btn_wf11_bg {
+  background-image: url("../images/icon_workflow/wf11_checklist.png")
+}
+
+/*12 生產排程*/
+.btn_wf12_bg {
+  background-image: url("../images/icon_workflow/wf12_calendar.png")
+}
+
+/*13 整經作業*/
+.btn_wf13_bg {
+  background-image: url("../images/icon_workflow/wf13_thread.png")
+}
+
+/*14 穿綜作業*/
+.btn_wf14_bg {
+  background-image: url("../images/icon_workflow/wf14_needle.png")
+}
+
+/*15 織布作業*/
+.btn_wf15_bg {
+  background-image: url("../images/icon_workflow/wf15_sewing-machine.png")
+}
+
+/*16 驗布作業*/
+.btn_wf16_bg {
+  background-image: url("../images/icon_workflow/wf16_textile.png")
+}
+
+/*17 出貨作業*/
+.btn_wf17_bg {
+  background-image: url("../images/icon_workflow/wf17_delivery-truck.png")
+}
+
+
+/*18 出貨管理*/
+.btn_wf18_bg {
+  background-image: url("../images/icon_workflow/wf18_delivery-man.png")
+}
+
+/*19 成品管理*/
+.btn_wf19_bg {
+  background-image: url("../images/icon_workflow/wf19_inventory.png")
+}
+
+/*20 委外加工*/
+.btn_wf20_bg {
+  background-image: url("../images/icon_workflow/wf20_production.png")
+}
+
+/*21 成品出貨*/
+.btn_wf21_bg {
+  background-image: url("../images/icon_workflow/wf21_delivery-truck.png")
+}
+
+
+/*22 生產管理*/
+.btn_wf22_bg {
+  background-image: url("../images/icon_workflow/wf22_completed-task.png")
+}
+
+/*23 原料管理*/
+.btn_wf23_bg {
+  background-image: url("../images/icon_workflow/wf23_yarn.png")
+}
+
+/*24 盤頭管理*/
+.btn_wf24_bg {
+  background-image: url("../images/icon_workflow/wf24_weightlifting.png")
+}
+
+/*25 鋼筘管理*/
+.btn_wf25_bg {
+  background-image: url("../images/icon_workflow/wf25_rug.png")
+}
+
+/*26 設備管理*/
+.btn_wf26_bg {
+  background-image: url("../images/icon_workflow/wf26_configuration.png")
+}
+
+/*27 現場監控*/
+.btn_wf27_bg {
+  background-image: url("../images/icon_workflow/wf27_speedometer.png")
+}
+
+/*28 品質管理*/
+.btn_wf28_bg {
+  background-image: url("../images/icon_workflow/wf28_completed-task.png")
+}
+
+
+/*系統選項*/
+/*個人資料*/
+/*帳號權限*/
+/*作業流程*/
+/*統計資料*/
+/*業務管理*/
+/*電子看板*/

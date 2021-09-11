@@ -1,0 +1,40 @@
+.k-grid-toolbar .icon {
+    color: #000000;
+}
+
+.k-grid-toolbar .icon:hover {
+    color: #3399ff;
+}
+
+.k-grid-toolbar .nav-item {
+    width: 100%;
+}
+
+.k-grid-toolbar button {
+    background-color: #FFFFFF;
+}
+
+/*datetimepicker*/
+.k-datepicker .k-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*searchWindow*/
+#searchWindow p {
+    text-align: initial;
+}
+
+.k-dropdown > .k-dropdown-wrap > .k-input {
+    height: 100%;
+}
+
+.k-dropdown > .k-dropdown-wrap > .k-select > span {
+    height: inherit;
+}
+
+.k-autocomplete > .form-control{
+    width: 100%;
+    height: -webkit-fill-available;
+}

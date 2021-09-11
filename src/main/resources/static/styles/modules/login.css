@@ -1,0 +1,114 @@
+/* ==================================================
+  lms
+================================================== */
+
+/* =====lms 登入 login======  */
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 8%;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  height: 4.125rem;
+  padding: 0.75rem;
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.8;
+  color: #3399ff;
+  pointer-events: none;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input {
+  padding-left:5rem;
+  padding-top: .8rem;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+.bg_loginid{
+  background: no-repeat url("/images/round-account-button-with-user-inside.png");
+  background-position-x: 98%;
+  background-position-y: 50%;
+  background-size: 27px;
+}
+.bg_loginipw{
+  background: no-repeat url("/images/padlock.png");
+  background-position-x: 98%;
+  background-position-y: 50%;
+  background-size: 27px;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #00a65a;
+  border: 0px;
+}
+.padbigbtn{
+  width: 20%;
+  border-radius: 7px;
+  margin: 0 7px;
+}

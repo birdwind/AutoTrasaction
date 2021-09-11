@@ -1,0 +1,92 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "buckleCoreCreate",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "buckleCore": {
+            "buckleCoreUuid": "3064c549-46c6-44e7-b3df-9a8f709a8993",
+            "buckleCoreNo": {
+                "title": "鋼筘編號",
+                "type": "label",
+                "required": true,
+                "value": "bc-1"
+            },
+            "createDate": {
+                "title": "購入時間",
+                "type": "label",
+                "required": false,
+                "value": "2017-01-30"
+            },
+            "buckleSpec": {
+                "title": "鋼筘規格",
+                "type": "label",
+                "required": false,
+                "value": "180cm"
+            },
+            "bucklePurchaseCompany": {
+                "title": "購入廠商",
+                "type": "label",
+                "required": false,
+                "value": "品展"
+            },
+            "status": {
+                "title": "鋼筘狀態",
+                "type": "label",
+                "required": false,
+                "value": "使用"
+            },
+            "note": {
+                "title": "備註",
+                "type": "textarea",
+                "required": false,
+                "value": "測試資料"
+            }
+        },
+        "buckleInfo": {
+            "header": {
+                "manufactureOrderCoreNo": {
+                    "title": "目前工單",
+                    "type": "label",
+                    "required": true
+                },
+                "clothOrderCoreNo": {
+                    "title": "目前訂單",
+                    "type": "label",
+                    "required": true
+                },
+                "batchNo": {
+                    "title": "經紗批號",
+                    "type": "label",
+                    "required": true
+                },
+                "stock": {
+                    "title": "經軸殘量",
+                    "type": "label",
+                    "required": true
+                },
+                "currentLocation": {
+                    "title": "目前位置",
+                    "type": "label",
+                    "required": true
+                }
+            },
+            "contents": [
+                {
+                    "manufactureOrderCoreNo": "mano-20191016-1439",
+                    "clothOrderCoreNo": "ord-20190915-2",
+                    "batchNo": "batch-01",
+                    "stock": "2345.123Y",
+                    "currentLocation": "織布站"
+                }
+            ]
+        },
+        "attachment": {
+            "attachmentCoreUuid": "80d2cf92-adc3-49bc-aba7-92a2dc901391",
+            "verifyToken": "ea3f35bfa83f9fd1276c13fb349a0fddee367253",
+            "attachmentDetails": []
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "status": true,
+    "httpStatus": 200,
+    "requestUrl": "",
+    "method": "GET",
+    "resourceName": "buckleCoreCreate",
+    "timeStamp": "2019/10/21 09:43:19",
+    "response": {
+        "buckleCore": {
+            "buckleCoreUuid": "",
+            "buckleCoreNo": {
+                "title": "鋼筘編號",
+                "type": "text",
+                "required": true,
+                "value": ""
+            },
+            "createDate": {
+                "title": "購入時間",
+                "type": "date",
+                "required": false,
+                "value": ""
+            },
+            "buckleSpec": {
+                "title": "鋼筘規格",
+                "type": "text",
+                "required": false,
+                "value": ""
+            },
+            "bucklePurchaseCompany": {
+                "title": "購入廠商",
+                "type": "text",
+                "required": false,
+                "value": ""
+            },
+            "status": {
+                "title": "鋼筘狀態",
+                "type": "text",
+                "required": false,
+                "value": ""
+            },
+            "note": {
+                "title": "備註",
+                "type": "textarea",
+                "required": false,
+                "value": ""
+            }
+        },
+        "attachment": {
+            "attachmentCoreUuid": "80d2cf92-adc3-49bc-aba7-92a2dc901391",
+            "verifyToken": "ea3f35bfa83f9fd1276c13fb349a0fddee367253",
+            "attachmentDetails": []
+        }
+    }
+}

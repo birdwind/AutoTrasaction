@@ -1,0 +1,93 @@
+{
+  "status": true,
+  "httpStatus": 200,
+  "requestUrl": "",
+  "method": "POST",
+  "resourceName": null,
+  "timeStamp": "2019/10/30 11:08:25",
+  "response": {
+    "header": {
+      "uuid": {
+        "type": "hidden",
+        "required": false
+      },
+      "No": {
+        "title": "工單編號 ",
+        "type": "label",
+        "required": false
+      },
+      "orderNo": {
+        "title": "訂單號碼 ",
+        "type": "label",
+        "required": false
+      },
+      "beamNo": {
+        "title": "盤頭編號",
+        "type": "label",
+        "required": false
+      },
+      "warpingLength": {
+        "title": "整經長度",
+        "type": "label",
+        "required": false
+      },
+      "staff": {
+        "title": "整經人員",
+        "type": "label",
+        "required": false
+      },
+      "warpNo": {
+        "title": "經紗批號",
+        "type": "label",
+        "required": false
+      },
+      "startTime": {
+        "title": "開始時間",
+        "type": "label",
+        "required": false
+      },
+      "endTime": {
+        "title": "完成時間",
+        "type": "label",
+        "required": false
+      },
+      "warehouse": {
+        "title": "入庫盤頭倉",
+        "type": "label",
+        "required": false
+      }
+
+    },
+    "contents": [
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789a",
+        "No": "mo-201909011-31",
+        "orderNo": "ord-20190911-1",
+        "beamNo": "ws-1234",
+        "warpingLength": "200",
+        "staff": "唯聖採購",
+        "warpNo": "3pch-2019093",
+        "startTime": "2019/10/03 09:25",
+        "endTime": "2019/10/30 19:25",
+        "warehouse": "唯聖緯紗倉"
+      },
+      {
+        "uuid": "065fc19c-ef16-11e9-b359-06e6eae5789b",
+        "No": "mo-201909011-32",
+        "orderNo": "ord-20190911-2",
+        "beamNo": "ws-1233",
+        "warpingLength": "100",
+        "staff": "唯聖採購",
+        "warpNo": "3pch-2019093",
+        "startTime": "2019/10/11 011:12",
+        "endTime": "2019/10/22 20:54",
+        "warehouse": "唯聖緯紗倉"
+      }
+    ],
+    "totalElements": 2,
+    "size": 10,
+    "numberOfElements": 2,
+    "currentPage": 0,
+    "totalPages": 1
+  }
+}
